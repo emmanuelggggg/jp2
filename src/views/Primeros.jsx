@@ -1,5 +1,7 @@
 import React from 'react'
 import { Table, Accordion, Badge } from "flowbite-react";
+import {  Outlet } from 'react-router-dom';
+import { Button } from "flowbite-react";
 
 const Primeros = () => {
   const semestre1 = [
@@ -906,10 +908,6 @@ const Primeros = () => {
     "Maestría en Sociología de la Educación"
   ];
 
-
-
-
-
   return (
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
@@ -931,7 +929,7 @@ const Primeros = () => {
                         <Table.Body className="divide-y">
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia1}
+                              <Button href='/Materias1' outline color="gray">{semestre1.materia1}</Button>                              
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -940,7 +938,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia2}
+                              <Button href='/Materias2' outline color="gray">{semestre1.materia2}</Button>
                             </Table.Cell>
                             <Table.Cell>2</Table.Cell>
                             <Table.Cell>0.5</Table.Cell>
@@ -949,7 +947,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia3}
+                              <Button href='/Materias3' outline color="gray">{semestre1.materia3}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -958,7 +956,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia4}
+                              <Button href='/Materias4' outline color="gray">{semestre1.materia4}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -967,7 +965,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia5}
+                              <Button href='/Materias5' outline color="gray">{semestre1.materia5}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -976,7 +974,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia6}
+                              <Button href='/Materias6' outline color="gray">{semestre1.materia6}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -985,7 +983,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia7}
+                              <Button href='/Materias7' outline color="gray">{semestre1.materia7}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -994,7 +992,7 @@ const Primeros = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              {semestre1.materia8}
+                              <Button href='/Materias8' outline color="gray">{semestre1.materia8}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -1012,7 +1010,7 @@ const Primeros = () => {
               <h1 className="dark:text-white text-xl p-2">Perfiles para el docente</h1>              
               <Accordion collapseAll>
                   <Accordion.Panel>
-                    <Accordion.Title>Materia y sus interacciones</Accordion.Title>
+                    <Accordion.Title>Materia y sus Iteracciones</Accordion.Title>
                       <Accordion.Content >
                         <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
                           Licenciatura
@@ -1391,6 +1389,7 @@ const Primeros = () => {
             </div>
         </div>
       </div>
+      <Outlet/>
     </div>
   )
 }
