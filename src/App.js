@@ -12,12 +12,14 @@ import Tercero from './views/Tercero';
 import Cuarto from './views/Cuarto';
 import Quinto from './views/Quinto';
 import Sexto from './views/Sexto';
+
 import {Materias1, Materias2, Materias3,Materias4,Materias5,Materias6,Materias7,Materias8,Curriculum1} from './views/materias1/Materias1';
-import {Materias9, Materias10, Materias11,Materias12,Materias13,Materias14,Materias15,Materias16,Curriculum2} from './views/materias1/Materias2';
-import {Materias17, Materias18, Materias19,Materias20,Materias21,Materias22,Laboral1,Laboral2,Curriculum3} from './views/materias1/Materias3';
-import {Materias23, Materias24, Materias25,Materias26,Materias27,Materias28,Materias29,Materias30,Laboral3,Laboral4,Curriculum4} from './views/materias1/Materias4';
-import {Materias31, Materias32,Extendido1,Extendido2,Extendido3,Extendido4,Laboral5,Laboral6,Curriculum5} from './views/materias1/Materias5';
-import {Materias33, Materias34,Materias35, Extendido5,Extendido6,Extendido7,Extendido8,Laboral7,Laboral8,Curriculum6} from './views/materias1/Materias6';
+import {Materias9, Materias10, Materias11,Materias12,Materias13,Materias14,Materias15,Materias16,Curriculum2} from './views/materias2/Materias2';
+import {Materias17, Materias18, Materias19,Materias20,Materias21,Materias22,Laboral1,Laboral2,Curriculum3} from './views/materias3/Materias3';
+import {Materias23, Materias24, Materias25,Materias26,Materias27,Materias28,Materias29,Materias30,Laboral3,Laboral4,Curriculum4} from './views/materias4/Materias4';
+import {Materias31, Materias32,Extendido1,Extendido2,Extendido3,Extendido4,Laboral5,Laboral6,Curriculum5} from './views/materias5/Materias5';
+import {Materias33, Materias34,Materias35, Extendido5,Extendido6,Extendido7,Extendido8,Laboral7,Laboral8,Curriculum6} from './views/materias6/Materias6';
+
 
 
 
@@ -53,7 +55,7 @@ function App() {
 
 
           <Route path='/Tercero' element={<Tercero />}></Route>
-          <Route path='/Materias17' element={<Materias17 />}></Route>
+          <Route path='/Materias3-17' element={<Materias17 />}></Route>
           <Route path='/Materias18' element={<Materias18 />}></Route>
           <Route path='/Materias19' element={<Materias19 />}></Route>
           <Route path='/Materias20' element={<Materias20 />}></Route>
