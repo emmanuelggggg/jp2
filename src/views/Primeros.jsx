@@ -14,7 +14,8 @@ const Primeros = () => {
       materia5:"Lengua y Comunicación I",
       materia6:"Ingles I",
       materia7:"Humanidades I",
-      materia8:"* Laboratorio de investigación I"
+      materia8:"* Laboratorio de investigación I",
+      curriculum1:" - Curriculum Ampliado",
     }
   ]
   const MI_licenciatura = [
@@ -999,6 +1000,16 @@ const Primeros = () => {
                             <Table.Cell>3.75</Table.Cell>
                             <Table.Cell>6</Table.Cell>
                           </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                              <Button href='/Curriculum1' outline color="gray">{semestre1.curriculum1}</Button>
+                            </Table.Cell>
+                            <Table.Cell>4</Table.Cell>
+                            <Table.Cell>1</Table.Cell>
+                            <Table.Cell>5</Table.Cell>
+                            <Table.Cell>8</Table.Cell>
+                          </Table.Row>
+                          
                         </Table.Body>
                       </Table>
                     </>
@@ -1339,7 +1350,54 @@ const Primeros = () => {
                       </Accordion.Content>
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Laboratorio de investigación I</Accordion.Title>
+                    <Accordion.Title>* Laboratorio de investigación I</Accordion.Title>
+                      <Accordion.Content >
+                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
+                          Licenciatura
+                        </p>    
+                        <div className="flex flex-wrap gap-2">
+                          {
+                            LI_licenciatura.map((lic) => {
+                              return(
+                                <div>
+                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
+                                </div>
+                              )
+                            })
+                          }
+                        </div>
+                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
+                          Ingeneria
+                        </p>    
+                        <div className="flex flex-wrap gap-2">
+                          {
+                            LI_ingeneria.map((ing) => {
+                              return(
+                                <div>
+                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
+                                </div>
+                              )
+                            })
+                          }
+                        </div>
+                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
+                          Maestria
+                        </p>    
+                        <div className="flex flex-wrap gap-2">
+                          {
+                            LI_maestria.map((mas) => {
+                              return(
+                                <div>
+                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
+                                </div>
+                              )
+                            })
+                          }
+                        </div>
+                      </Accordion.Content>
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                    <Accordion.Title> - Curriculum Ampliado </Accordion.Title>
                       <Accordion.Content >
                         <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
                           Licenciatura
