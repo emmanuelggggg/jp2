@@ -55,7 +55,7 @@ function App() {
 
 
           <Route path='/Tercero' element={<Tercero />}></Route>
-          <Route path='/Materias3-17' element={<Materias17 />}></Route>
+          <Route path='/Materias17' element={<Materias17 />}></Route>
           <Route path='/Materias18' element={<Materias18 />}></Route>
           <Route path='/Materias19' element={<Materias19 />}></Route>
           <Route path='/Materias20' element={<Materias20 />}></Route>
