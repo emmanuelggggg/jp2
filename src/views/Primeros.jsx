@@ -8,14 +8,14 @@ const Primeros = () => {
   const semestre1 = [
     {
       semestre:"1er Semestre",
-      materia1:"Materia y sus interacciones",
+      materia1:"Materia y sus Interacciones",
       materia2:"Ciencias Sociales I",
       materia3:"Cultura Digital I",
       materia4:"Pensamiento Matematico I",
       materia5:"Lengua y Comunicación I",
       materia6:"Ingles I",
       materia7:"Humanidades I",
-      materia8:"* Laboratorio de investigación I",
+      materia8:"* Laboratorio de Investigación I",
       curriculum1:" - Curriculum Ampliado",
     }
   ]
@@ -1023,7 +1023,7 @@ const Primeros = () => {
               <Accordion collapseAll>
                   <Accordion.Panel>
                     <Perfiles 
-                      titulo={"Materia y sus Iteracciones"}
+                      titulo={"Materia y sus Interacciones"}
                       licenciatura ={MI_licenciatura}
                       ingeneria={MI_ingeneria}
                       maestria={MI_maestria}
@@ -1079,7 +1079,7 @@ const Primeros = () => {
                   </Accordion.Panel>
                   <Accordion.Panel>
                     <Perfiles 
-                      titulo={"Humanidades I"}
+                      titulo={"* Laboratorio de Investigación"}
                       licenciatura ={LI_licenciatura}
                       ingeneria={LI_ingeneria}
                       maestria={LI_maestria}
