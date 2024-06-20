@@ -1,8 +1,8 @@
 import React from 'react'
-import { Table, Accordion, Badge } from "flowbite-react";
+import { Table, Accordion } from "flowbite-react";
 import {  Outlet } from 'react-router-dom';
 import { Button } from "flowbite-react";
-
+import Perfiles from '../components/Perfiles';
 const Cuarto = () => {
   const semestre4 = [
     {
@@ -20,225 +20,6 @@ const Cuarto = () => {
       curriculum4:"- Curriculum Ampliado",
     }
   ]
-
-  const MI_licenciatura = [
-    "Acuacultura",
-    "Agrobiotecnología",
-    "Bioingeniería",
-    "Biología",
-    "Biología Ambiental",
-    "Biología Área de Manejo de Recursos Naturales",
-    "Biología en todas sus Especialidades",
-    "Biología Experimental",
-    "Biología Marina",
-    "Biología Molecular",
-    "Biólogo",
-    "Biólogo Acuacultor",
-    "Biomedicina",
-    "Bioquímica en todas sus Especialidades",
-    "Biotecnología",
-    "Biotecnología en Acuacultura",
-    "Biotecnología en todas sus Especialidades",
-    "Biotecnología Genómica",
-    "Ciencia de los Alimentos",
-    "Ciencias",
-    "Ciencias Ambientales",
-    "Ciencias Atmosféricas",
-    "Ciencias de la Tierra",
-    "Ciencias Farmacéuticas",
-    "Ciencias Físico Matemáticas",
-    "Ciencias Genómicas",
-    "Ciencias Químicas",
-    "Cirujano Dentista",
-    "Desarrollo Sustentable",
-    "Ecología",
-    "Ecología Marina",
-    "Educación en Ciencias Naturales",
-    "Educación en El Área De Ciencias Naturales",
-    "Educación en Química Y Biología",
-    "Educación Media con Especialidad en Ciencias Naturales",
-    "Educación Media en el Área de Ciencias Naturales",
-    "Educación Media Superior con Especialidad en Ciencias Experimentales",
-    "Educación Media Superior con Especialidad en Ciencias Naturales",
-    "Educación Media Superior Intercultural con Especialidad en Ciencias Naturales",
-    "Educación Secundaria con Especialidad en Biología",
-    "Educación Secundaria con Especialidad en Ciencias Naturales",
-    "Educación Secundaria con Especialidad en Física",
-    "Educación Secundaria con Especialidad en Química",
-    "Enseñanza de Educación Media Superior en el Área de Ciencias Naturales",
-    "Enseñanza y Aprendizaje de la Biología en Educación Secundaria",
-    "Enseñanza y Aprendizaje de la Física en Educación Secundaria",
-    "Enseñanza y Aprendizaje de la Química en Educación Secundaria",
-    "Estomatología",
-    "Farmacia",
-    "Física",
-    "Física Aplicada",
-    "Física y Matemáticas",
-    "Físico Matemático",
-    "Geociencias",
-    "Geología",
-    "Geólogo Mineralogista",
-    "Hidrobiología",
-    "Manejo de Recursos Naturales",
-    "Medicina",
-    "Medicina Veterinaria Zootecnia",
-    "Médico Cirujano",
-    "Médico Cirujano y Homeópata",
-    "Médico General",
-    "Microbiología",
-    "Minero Metalurgista",
-    "Nanotecnología e Ingeniería Molecular",
-    "Nutrición",
-    "Oceanología",
-    "Producción Animal",
-    "Química",
-    "Química Clínica",
-    "Química de Alimentos",
-    "Químico Bacteriólogo y Parasitólogo",
-    "Químico Biólogo",
-    "Químico Biólogo Clínico",
-    "Químico Biólogo Parasitólogo",
-    "Químico Clínico Biólogo",
-    "Químico Farmacéutico Biólogo",
-    "Químico Farmacéutico Industrial",
-    "Químico Farmacobiólogo",
-    "Químico Industrial",
-    "Sistemas Costeros"
-  ];
-  const MI_ingeneria = [
-    "Aeroespacial",
-    "Aeronáutica",
-    "Agrícola",
-    "Agrobiológica",
-    "Agroindustrial",
-    "Agroquímica",
-    "Ambiental",
-    "Biomédica",
-    "Biomédica Industrial",
-    "Civil",
-    "Eléctrica",
-    "Eléctrica Electrónica",
-    "Electromecánica",
-    "Electrónica",
-    "Acuacultura",
-    "Acuicultura",
-    "Agroalimentos",
-    "Agroecología",
-    "Agronomía",
-    "Agronomía en todas sus Especialidades",
-    "Agronomía Fitotecnista",
-    "Agronomía Industrial",
-    "Alimentos",
-    "Análisis Espacial y Biociencias",
-    "Biología Agropecuaria",
-    "Biología Pesquera",
-    "Biónica",
-    "Bioprocesos",
-    "Bioquímica",
-    "Bioquímica Industrial",
-    "Biotecnología",
-    "Ciencias de la Electrónica",
-    "Conservación y Manejo de Recursos Naturales",
-    "Control y Automatización",
-    "Energética",
-    "Energía",
-    "Energías Renovables",
-    "Geología Ambiental",
-    "Hortícola",
-    "Industrias Alimentarias",
-    "Instrumentación Electrónica",
-    "Instrumentación Electrónica y Nanosensores",
-    "Manejo de Recursos Forestales",
-    "Manejo de Recursos Naturales",
-    "Mantenimiento Industrial",
-    "Mantenimiento Petrolero",
-    "Manufactura",
-    "Materiales",
-    "Mecatrónica",
-    "Mecatrónica en todas sus Especialidades",
-    "Metal Mecánica",
-    "Metalurgia",
-    "Metalurgia en todas sus Especialidades",
-    "Metalurgia y Materiales",
-    "Minas",
-    "Minas y Metalurgia",
-    "Nanotecnología",
-    "Pesquerías",
-    "Petroquímica en todas sus Especialidades",
-    "Procesos Ambientales",
-    "Producción Industrial",
-    "Producción Vegetal",
-    "Recursos Naturales Renovables",
-    "Recursos Naturales y Agropecuarios",
-    "Sistemas Ambientales",
-    "Sistemas Automotrices",
-    "Sistemas Costeros",
-    "Sistemas de Energía",
-    "Sistemas Energéticos Sustentables",
-    "Tecnología Ambiental",
-    "Telecomunicaciones",
-    "Telemática",
-    "Topografía en todas sus Especialidades",
-    "Topografía y Geodésica",
-    "Transporte",
-    "Física Industrial",
-    "Forestal",
-    "Geofísica",
-    "Geológica",
-    "Hidráulica",
-    "Hidrológica",
-    "Industrial",
-    "Industrial Manufactura",
-    "Industrial para la Dirección",
-    "Industrial Procesos y Servicios",
-    "Mecánica",
-    "Mecánica Automotriz",
-    "Mecánica Eléctrica",
-    "Mecánica en todas sus Especialidades",
-    "Mecánica Industrial",
-    "Metalúrgica",
-    "Metalúrgica y Ciencias de los Materiales",
-    "Metalurgista y de Materiales",
-    "Oceánica",
-    "Petrolera",
-    "Petroquímica",
-    "Química",
-    "Química Agrícola",
-    "Química Ambiental",
-    "Química en todas sus Especialidades",
-    "Química Industrial",
-    "Química Metalúrgica",
-    "Química Petrolera",
-    "Textil",
-    "Ingeniero Agrónomo",
-    "Ingeniero Agrónomo en Sistemas de Producción Agrícola",
-    "Ingeniero Agrónomo en Sistemas Pecuarios",
-    "Ingeniero Agrónomo especialista en Desarrollo Rural",
-    "Ingeniero Agrónomo especialista en Fitotecnia",
-    "Ingeniero Agrónomo Horticultor",
-    "Ingeniero Agrónomo Industrial",
-    "Ingeniero Electricista",
-    "Ingeniero Físico Industrial",
-    "Ingeniero Mecánico Agrícola",
-    "Ingeniero Mecánico Electricista",
-    "Ingeniero Mecánico Naval",
-    "Ingeniero Topógrafo"
-  ];
-  const MI_maestria = [
-    "Maestría en Biociencias",
-    "Maestría en Calidad Ambiental",
-    "Maestría en Ciencias con Especialidad en Biotecnología",
-    "Maestría en Ciencias con Especialidad en Hidrociencias",
-    "Maestría en Ciencias con Especialidad en Ingeniería",
-    "Maestría en Ciencias con Especialidad en Ingeniería Energética",
-    "Maestría en Ciencias con Especialidad en Sistemas Ambientales",
-    "Maestría en Ciencias de los Materiales",
-    "Maestría en Ciencias del Agua",
-    "Maestría en Ciencias en Desarrollo Sostenible",
-    "Maestría en Ciencias Químicas",
-    "Maestría en Medio Ambiente",
-    "Maestría en Polímeros y Materiales"
-  ];
 
   const CS_licenciatura = [
     "Administración",
@@ -353,7 +134,295 @@ const Cuarto = () => {
     "Maestría en Estudios Políticos y Sociales"
   ];
 
-  const CD_licenciatura = [
+  const ingles =[
+      "Docencia de Idiomas",
+      "Docencia del Idioma Inglés",
+      "Educación Bilingüe",
+      "Educación Media especializado en Inglés",
+      "Enseñanza de la Lengua Materna",
+      "Enseñanza del Inglés",
+      "Idioma Inglés",
+      "Idiomas",
+      "Intérprete Traductor",
+      "Lengua Inglesa",
+      "Lenguas",
+      "Lenguas Modernas",
+      "Letras Inglesas",
+      "Traducción del Idioma Inglés",
+      "Traducción y Didáctica del Inglés"
+  ];
+
+  const ingles_certificado =[
+    "Certificación Nacional de Nivel de Idioma (CENNI)."
+  ]
+
+  const ingles_maestria =[
+    "No Aplica"
+  ]
+
+  const ReaccionesQ_licencia =[
+    "Acuacultura",
+    "Agrobiotecnología",
+    "Bioingeniería",
+    "Biología",
+    "Biología Ambiental",
+    "Biología Área de Manejo de Recursos Naturales",
+    "Biología en todas sus Especialidades",
+    "Biología Experimental",
+    "Biología Marina",
+    "Biología Molecular",
+    "Biólogo",
+    "Biólogo Acuacultor",
+    "Biomedicina",
+    "Bioquímica en todas sus Especialidades",
+    "Biotecnología",
+    "Biotecnología en Acuacultura",
+    "Biotecnología en todas sus Especialidades",
+    "Biotecnología Genómica",
+    "Ciencia de los Alimentos",
+    "Ciencias",
+    "Ciencias Ambientales",
+    "Ciencias Atmosféricas",
+    "Ciencias de la Tierra",
+    "Ciencias Farmacéuticas",
+    "Ciencias Físico Matemáticas",
+    "Ciencias Genómicas",
+    "Ciencias Químicas",
+    "Cirujano Dentista",
+    "Desarrollo Sustentable",
+    "Ecología",
+    "Ecología Marina",
+    "Educación en Ciencias Naturales",
+    "Educación en El Área De Ciencias Naturales",
+    "Educación en Química Y Biología",
+    "Educación Media con Especialidad en Ciencias Naturales",
+    "Educación Media en el Área de Ciencias Naturales",
+    "Educación Media Superior con Especialidad en Ciencias Experimentales",
+    "Educación Media Superior con Especialidad en Ciencias Naturales",
+    "Educación Media Superior Intercultural con Especialidad en Ciencias Naturales",
+    "Educación Secundaria con Especialidad en Biología",
+    "Educación Secundaria con Especialidad en Ciencias Naturales",
+    "Educación Secundaria con Especialidad en Física",
+    "Educación Secundaria con Especialidad en Química",
+    "Enseñanza de Educación Media Superior en el Área de Ciencias Naturales",
+    "Enseñanza y Aprendizaje de la Biología en Educación Secundaria",
+    "Enseñanza y Aprendizaje de la Física en Educación Secundaria",
+    "Enseñanza y Aprendizaje de la Química en Educación Secundaria",
+    "Estomatología",
+    "Farmacia",
+    "Física",
+    "Física Aplicada",
+    "Física y Matemáticas",
+    "Físico Matemático",
+    "Geociencias",
+    "Geología",
+    "Geólogo Mineralogista",
+    "Hidrobiología",
+    "Manejo de Recursos Naturales",
+    "Medicina",
+    "Medicina Veterinaria Zootecnia",
+    "Médico Cirujano",
+    "Médico Cirujano y Homeópata",
+    "Médico General",
+    "Microbiología",
+    "Minero Metalurgista",
+    "Nanotecnología e Ingeniería Molecular",
+    "Nutrición",
+    "Oceanología",
+    "Producción Animal",
+    "Química",
+    "Química Clínica",
+    "Química de Alimentos",
+    "Químico Bacteriólogo y Parasitólogo",
+    "Químico Biólogo",
+    "Químico Biólogo Clínico",
+    "Químico Biólogo Parasitólogo",
+    "Químico Clínico Biólogo",
+    "Químico Farmacéutico Biólogo",
+    "Químico Farmacéutico Industrial",
+    "Químico Farmacobiólogo",
+    "Químico Industrial",
+    "Sistemas Costeros"
+  ];
+  const ReaccionesQ_ingeneria = [
+  "Acuacultura",
+  "Agrobiotecnología",
+  "Bioingeniería",
+  "Biología",
+  "Biología Ambiental",
+  "Biología Área de Manejo de Recursos Naturales",
+  "Biología en todas sus Especialidades",
+  "Biología Experimental",
+  "Biología Marina",
+  "Biología Molecular",
+  "Biólogo",
+  "Biólogo Acuacultor",
+  "Biomedicina",
+  "Bioquímica en todas sus Especialidades",
+  "Biotecnología",
+  "Biotecnología en Acuacultura",
+  "Biotecnología en todas sus Especialidades",
+  "Biotecnología Genómica",
+  "Ciencia de los Alimentos",
+  "Ciencias",
+  "Ciencias Ambientales",
+  "Ciencias Atmosféricas",
+  "Ciencias de la Tierra",
+  "Ciencias Farmacéuticas",
+  "Ciencias Físico Matemáticas",
+  "Ciencias Genómicas",
+  "Ciencias Químicas",
+  "Cirujano Dentista",
+  "Desarrollo Sustentable",
+  "Ecología",
+  "Ecología Marina",
+  "Educación en Ciencias Naturales",
+  "Educación en El Área De Ciencias Naturales",
+  "Educación en Química Y Biología",
+  "Educación Media con Especialidad en Ciencias Naturales",
+  "Educación Media en el Área de Ciencias Naturales",
+  "Educación Media Superior con Especialidad en Ciencias Experimentales",
+  "Educación Media Superior con Especialidad en Ciencias Naturales",
+  "Educación Media Superior Intercultural con Especialidad en Ciencias Naturales",
+  "Educación Secundaria con Especialidad en Biología",
+  "Educación Secundaria con Especialidad en Ciencias Naturales",
+  "Educación Secundaria con Especialidad en Física",
+  "Educación Secundaria con Especialidad en Química",
+  "Enseñanza de Educación Media Superior en el Área de Ciencias Naturales",
+  "Enseñanza y Aprendizaje de la Biología en Educación Secundaria",
+  "Enseñanza y Aprendizaje de la Física en Educación Secundaria",
+  "Enseñanza y Aprendizaje de la Química en Educación Secundaria",
+  "Estomatología",
+  "Farmacia",
+  "Física",
+  "Física Aplicada",
+  "Física y Matemáticas",
+  "Físico Matemático",
+  "Geociencias",
+  "Geología",
+  "Geólogo Mineralogista",
+  "Hidrobiología",
+  "Manejo de Recursos Naturales",
+  "Medicina",
+  "Medicina Veterinaria Zootecnia",
+  "Médico Cirujano",
+  "Médico Cirujano y Homeópata",
+  "Médico General",
+  "Microbiología",
+  "Minero Metalurgista",
+  "Nanotecnología e Ingeniería Molecular",
+  "Nutrición",
+  "Oceanología",
+  "Producción Animal",
+  "Química",
+  "Química Clínica",
+  "Química de Alimentos",
+  "Químico Bacteriólogo y Parasitólogo",
+  "Químico Biólogo",
+  "Químico Biólogo Clínico",
+  "Químico Biólogo Parasitólogo",
+  "Químico Clínico Biólogo",
+  "Químico Farmacéutico Biólogo",
+  "Químico Farmacéutico Industrial",
+  "Químico Farmacobiólogo",
+  "Químico Industrial",
+  "Sistemas Costeros"
+  ];
+  const ReaccionesQ_maestria = [
+  "Maestría en Biociencias",
+  "Maestría en Calidad Ambiental",
+  "Maestría en Ciencias con Especialidad en Biotecnología",
+  "Maestría en Ciencias con Especialidad en Hidrociencias",
+  "Maestría en Ciencias con Especialidad en Ingeniería",
+  "Maestría en Ciencias con Especialidad en Ingeniería Energética",
+  "Maestría en Ciencias con Especialidad en Sistemas Ambientales",
+  "Maestría en Ciencias de los Materiales",
+  "Maestría en Ciencias del Agua",
+  "Maestría en Ciencias en Desarrollo Sostenible",
+  "Maestría en Ciencias Químicas",
+  "Maestría en Medio Ambiente",
+  "Maestría en Polímeros y Materiales"
+  ];
+  const Historicas_licenciatura = [
+  "Administración Pública y Ciencias Sociales",
+  "Administración y Ciencias Políticas",
+  "Antropología",
+  "Antropología Histórica",
+  "Antropología Social",
+  "Antropología Social y Cultural",
+  "Arqueología",
+  "Ciencias de la Comunicación con Especialidad en Ciencias Sociales",
+  "Ciencias de la Educación con Especialidad en Ciencias Sociales",
+  "Ciencias de la Familia",
+  "Ciencias Del Hombre",
+  "Ciencias Humanas",
+  "Ciencias Jurídicas",
+  "Ciencias Políticas",
+  "Ciencias Políticas y Administración Pública",
+  "Ciencias Políticas y Administración Pública Comercial",
+  "Ciencias Religiosas",
+  "Ciencias Sociales",
+  "Comunicación Social",
+  "Derecho y Ciencias Sociales",
+  "Diseño de los Asentamientos Humanos",
+  "Economía Política",
+  "Economía y Gobierno",
+  "Educación Indígena",
+  "Educación Media con Especialidad en Ciencias Sociales",
+  "Educación Media en el Área de Ciencias Sociales",
+  "Educación Media en Historia",
+  "Educación Media en la Especialidad en Educación Cívica y Social",
+  "Educación Media Especializada en Historia y Civismo",
+  "Educación Media Superior Intercultural",
+  "Educación y Desarrollo Humano",
+  "Enseñanza en Historia",
+  "Estudios Humanísticos",
+  "Estudios Humanísticos y Sociales",
+  "Estudios Internacionales",
+  "Estudios Latinoamericanos",
+  "Estudios Políticos y de Gobierno",
+  "Estudios Políticos y Gobierno",
+  "Estudios Socioterritoriales",
+  "Etnohistoria",
+  "Etnología",
+  "Filosofía Social y Política",
+  "Filosofía y Ciencias Sociales",
+  "Filosofía y Letras",
+  "Gestión y Desarrollo Social",
+  "Historia",
+  "Historia de Humanidades",
+  "Historia de la Antropología",
+  "Historia de los Asentamientos Humanos",
+  "Historia de México",
+  "Historia de Países",
+  "Historia General",
+  "Historia Humana",
+  "Historia por Épocas",
+  "Historia por Especialidades",
+  "Historia Universal Contemporánea",
+  "Historia y Estudios de Humanidades",
+  "Historia y Sociedad Contemporánea",
+  "Humanidades",
+  "Humanidades y Filosofía",
+  "Intercultural",
+  "Periodismo y Comunicación Colectiva",
+  "Política y Gestión Social",
+  "Relaciones Humanas",
+  "Relaciones I"
+  ];
+  const Historicas_ingeneria =["No Aplica"];
+  const Historicas_maestria = [
+  "Maestría en Antropología y Estudios de la Cultura",
+  "Maestría en Ciencias Sociales",
+  "Maestría en Estudios Humanísticos",
+  "Maestría en Estudios Latinoamericanos",
+  "Maestría en Estudios Políticos y Sociales",
+  "Maestría en Historia",
+  "Maestría en Humanidades",
+  "Maestría en Humanidades en el Área de Historia"
+  ];
+
+  const TCD_licenciatura = [
     "Administración Computacional",
     "Administración de las Telecomunicaciones",
     "Administración de Sistemas",
@@ -401,7 +470,7 @@ const Cuarto = () => {
     "Transmisiones"
   ];
 
-  const CD_ingeneria = [
+  const TCD_ingeneria = [
     "Administración de Computación",
     "Cibernética",
     "Computación",
@@ -433,8 +502,7 @@ const Cuarto = () => {
     "Teleinformática",
     "Telemática"
   ];
-
-  const CD_maestria = [
+  const TCD_maestria = [
     "Maestría en Ciencias con Especialidad en Sistemas Inteligentes",
     "Maestría en Ciencias de Datos",
     "Maestría en Ciencias de la Ingeniería",
@@ -445,7 +513,7 @@ const Cuarto = () => {
     "Maestría en Tecnologías de Información y Administración"
   ];
 
-  const PM_licenciatura = [
+  const TSM_licenciatura = [
     "Actuaría",
     "Actuaría Financiera",
     "Actuario",
@@ -519,398 +587,244 @@ const Cuarto = () => {
     "Transporte"
   ];
 
-  const PM_ingeneria = [
-    "Civil",
-    "Civil de la Construcción",
-    "Computación",
-    "Comunicaciones y Electrónica",
-    "Control y Automatización",
-    "Demografía Estadística",
-    "Desarrollo de Software",
-    "Desarrollo e Innovación Empresarial",
-    "Eléctrica",
-    "Eléctrica Electrónica",
-    "Electricista",
-    "Eléctrico",
-    "Eléctrico Electrónico",
-    "Electromecánica",
-    "Electrónica",
-    "Electrónica en Comunicaciones",
-    "Electrónica y Telecomunicaciones",
-    "Electrónico",
-    "Electrónico en Computación",
-    "Electrónico en Planta y Mantenimiento",
-    "Financiera",
-    "Física",
-    "Geofísica",
-    "Geológica",
-    "Gestión Empresarial",
-    "Industrial",
-    "Industrial Administrador",
-    "Industrial Electrónica",
-    "Industrial en Electrónica",
-    "Industrial en Manufactura",
-    "Industrial en Procesos y Servicios",
-    "Industrial en Producción",
-    "Industrial Estadística",
-    "Industrial Mecánico en Térmica",
-    "Industrial para la Dirección",
-    "Industrial Química",
-    "Industrial Textil",
-    "Industrial y de Procesos",
-    "Industrial y de Servicios",
-    "Industrial y de Sistemas",
-    "Informática",
-    "Informática Mantenimiento Industrial",
-    "Matemática",
-    "Materiales",
-    "Mecánica",
-    "Mecánica Automotriz",
-    "Mecánico",
-    "Mecánico Administrador",
-    "Mecánico Agrícola",
-    "Mecánico Electricista",
-    "Mecánico en Térmica",
-    "Mecánico Naval",
-    "Mecatrónica",
-    "Metalmecánica",
-    "Metalurgia",
-    "Metalurgia y Minerales",
-    "Metalúrgica",
-    "Sistemas Computacionales",
-    "Sistemas de Computación Administrativa",
-    "Sistemas Productivos",
-    "Tecnología",
-    "Tecnología Ambiental",
-    "Telecomunicaciones",
-    "Textil",
-    "Textil en Acabados",
-    "Topográfico",
-    "Transporte",
-    "Vehículos de Motores"
-  ];
+  const TSM_ingeneria = [
+      "Civil",
+      "Civil de la Construcción",
+      "Computación",
+      "Comunicaciones y Electrónica",
+      "Control y Automatización",
+      "Demografía Estadística",
+      "Desarrollo de Software",
+      "Desarrollo e Innovación Empresarial",
+      "Eléctrica",
+      "Eléctrica Electrónica",
+      "Electricista",
+      "Eléctrico",
+      "Eléctrico Electrónico",
+      "Electromecánica",
+      "Electrónica",
+      "Electrónica en Comunicaciones",
+      "Electrónica y Telecomunicaciones",
+      "Electrónico",
+      "Electrónico en Computación",
+      "Electrónico en Planta y Mantenimiento",
+      "Financiera",
+      "Física",
+      "Geofísica",
+      "Geológica",
+      "Gestión Empresarial",
+      "Industrial",
+      "Industrial Administrador",
+      "Industrial Electrónica",
+      "Industrial en Electrónica",
+      "Industrial en Manufactura",
+      "Industrial en Procesos y Servicios",
+      "Industrial en Producción",
+      "Industrial Estadística",
+      "Industrial Mecánico en Térmica",
+      "Industrial para la Dirección",
+      "Industrial Química",
+      "Industrial Textil",
+      "Industrial y de Procesos",
+      "Industrial y de Servicios",
+      "Industrial y de Sistemas",
+      "Informática",
+      "Mantenimiento Industrial",
+      "Matemática",
+      "Materiales",
+      "Mecánica",
+      "Mecánica Automotriz",
+      "Mecánico",
+      "Mecánico Administrador",
+      "Mecánico Agrícola",
+      "Mecánico Electricista",
+      "Mecánico en Térmica",
+      "Mecánico Naval",
+      "Mecatrónica",
+      "Metalmecánica",
+      "Metalurgia",
+      "Metalurgia y Minerales",
+      "Metalúrgica",
+      "Sistemas Computacionales",
+      "Sistemas de Computación Administrativa",
+      "Sistemas Productivos",
+      "Tecnología",
+      "Tecnología Ambiental",
+      "Telecomunicaciones",
+      "Textil",
+      "Textil en Acabados",
+      "Topográfico",
+      "Transporte",
+      "Vehículos de Motores"
+    ];
+  const TSM_maestria = [
+      "Maestría en Administración de Riesgos",
+      "Maestría en Ciencias con Especialidad en Ingeniería Energética",
+      "Maestría en Ciencias con Especialidad en Sistemas Inteligentes",
+      "Maestría en Ciencias de Datos",
+      "Maestría en Ciencias de la Ingeniería",
+      "Maestría en Ciencias Matemáticas",
+      "Maestría en Contaduría",
+      "Maestría en Demografía",
+      "Maestría en Economía",
+      "Maestría en Estadística Aplicada",
+      "Maestría en Estadística Experimental",
+      "Maestría en Finanzas",
+      "Maestría en Ingeniería Automotriz"
+    ];
 
-  const PM_maestria = [
-    "Maestría en Administración de Riesgos",
-    "Maestría en Ciencias con Especialidad en Ingeniería Energética",
-    "Maestría en Ciencias con Especialidad en Sistemas Inteligentes",
-    "Maestría en Ciencias de Datos",
-    "Maestría en Ciencias de la Ingeniería",
-    "Maestría en Ciencias Matemáticas",
-    "Maestría en Contaduría",
-    "Maestría en Demografía",
-    "Maestría en Economía",
-    "Maestría en Estadística Aplicada",
-    "Maestría en Estadística Experimental",
-    "Maestría en Finanzas",
-    "Maestría en Ingeniería Automotriz"
-  ];
-
-  const LC_licenciatura = [
-    "Antropología Lingüística",
+  const PL_licenciatura = [
+    "Actuación",
+    "Arte Dramático",
     "Ciencias de la Comunicación",
-    "Ciencias de la Educación en el Área de Lengua y Literatura Española",
-    "Ciencias de la Educación y Periodismo",
-    "Ciencias de la Información",
     "Ciencias de la Lengua con Acentuación en Traducción e Interpretación",
-    "Ciencias del Lenguaje",
+    "Ciencias Humanas",
     "Ciencias y Técnicas de la Comunicación",
-    "Ciencias y Tecnologías de la Comunicación",
     "Comunicación",
-    "Comunicación Académica",
-    "Comunicación Colectiva",
-    "Comunicación Colectiva y Periodismo",
-    "Comunicación Educativa",
-    "Comunicación Multimedia",
-    "Comunicación Organizacional",
     "Comunicación Social",
-    "Comunicación Visual",
-    "Comunicación y Gestión Cultural",
-    "Comunicación y Medios de Información",
     "Comunicación y Periodismo",
     "Comunicación y Relaciones Públicas",
-    "Comunicación y Tecnología Educativa",
-    "Diseño de la Información",
-    "Docencia de Francés y Español",
     "Docencia de la Lengua y Literatura",
-    "Educación Bilingüe",
-    "Educación en el Área de Español",
     "Educación en el Área de Español y Literatura",
-    "Educación en Español",
     "Educación en Lengua y Literatura",
     "Educación Media con Especialidad en Español",
-    "Educación Media de Lengua y Literatura Española",
-    "Educación Media en el Área de Español",
-    "Educación Media en Español",
-    "Educación Media en la Especialidad de Español",
-    "Educación Media en Literatura y Lingüística",
-    "Educación Media Especializada en Lengua y Literatura Españolas",
-    "Educación Media Superior con Especialidad en Español",
-    "Educación Media Superior con Terminal en Comunicación",
-    "Educación Media Superior en el Área de Español",
-    "Educación Media Superior en la Especialidad de Español",
-    "Educación Media Superior Especialidad en Español",
-    "Educación Media Superior Especialidad en Literatura",
-    "Educación Primaria con Intercultural Bilingüe",
-    "Educación Secundaria con Especialidad en Español",
-    "Educación Secundaria en Español",
+    "Educación Media Superior Intercultural",
     "Enseñanza de la Lengua Materna",
     "Enseñanza de la Lengua y Literatura",
     "Enseñanza del Español y Literatura",
-    "Enseñanza y Lengua de la Literatura",
-    "Escenografía",
-    "Español",
     "Español",
     "Estudios Latinoamericanos",
     "Estudios Literarios",
-    "Filología",
     "Filología y Literatura",
     "Filosofía y Letras",
     "Filosofía y Literatura",
-    "Lengua y Lenguas Hispanas",
-    "Lengua y Lingüística Aplicada",
+    "Hispanoamericana",
+    "Historia del Arte",
+    "Humanidades",
+    "Idiomas",
     "Lengua y Literatura",
-    "Lengua y Literatura de Hispanoamérica",
     "Lengua y Literatura Española",
-    "Lengua y Literatura Españolas",
-    "Lengua y Literatura Hispánica",
     "Lengua y Literatura Hispanoamericana",
-    "Lengua y Literatura Modernas",
     "Lengua y Literaturas Hispanas",
-    "Lengua y Literaturas Hispánicas",
     "Lengua y Literaturas Hispanoamericanas",
     "Lengua y Literaturas Modernas",
-    "Lenguaje",
     "Lenguas",
-    "Lenguas Clásicas",
-    "Lenguas Clásicas",
-    "Lenguas Hispanas",
-    "Lenguas Hispanas",
     "Lenguas Hispánicas",
-    "Lenguas Modernas",
-    "Lenguas Modernas Aplicadas",
     "Lenguas Modernas en Español",
     "Letras",
+    "Letras Bíblicas",
     "Letras Clásicas",
     "Letras e Historia Hispánica",
     "Letras Españolas",
     "Letras Hispanas",
-    "Letras Hispánicas",
-    "Letras Hispanoamericanas",
-    "Letras Latinoamericanas",
-    "Letras Modernas",
-    "Letras y Periodismo",
-    "Educación Media en el Área en Español",
-    "Lingüística",
-    "Lingüística Aplicada",
-    "Lingüística Aplicada al Español",
-    "Lingüística Aplicada en Traducción",
-    "Lingüística y Literatura",
-    "Lingüística y Literatura Hispánica",
-    "Literatura",
-    "Literatura Comparada",
-    "Literatura Dramática y Teatro",
-    "Literatura Hispánica",
-    "Literatura Hispanoamericana",
-    "Literatura Iberoamericana",
-    "Literatura Latinoamericana",
-    "Literatura Universal",
-    "Literatura y Ciencias del Lenguaje",
-    "Literatura y Letras",
-    "Literatura y Lingüística",
-    "Literaturas Hispánicas",
-    "Maestro Normalista con Especialidad en Español",
-    "Medios",
-    "Normalista con Especialidad en Español",
-    "Pedagogía con Especialidad en Español",
-    "Pedagogía con Especialidad en Lengua y Literatura Hispánica",
-    "Pedagogía del Español",
-    "Periodismo",
-    "Periodismo e Información",
-    "Periodismo y Ciencias de la Comunicación",
-    "Periodismo y Comunicación",
-    "Periodismo y Comunicación Colectiva",
-    "Periodismo y Medios",
-    "Periodismo y Medios de Información",
-    "Profesor de Educación Media en la Especialidad de Lengua y Literatura"
-  ];
-  const LC_ingeneria=["No Aplica"]
-  const LC_maestria=["No Aplica"]
-
-  const ingles =[
-      "Docencia de Idiomas",
-      "Docencia del Idioma Inglés",
-      "Educación Bilingüe",
-      "Educación Media especializado en Inglés",
-      "Enseñanza de la Lengua Materna",
-      "Enseñanza del Inglés",
-      "Idioma Inglés",
-      "Idiomas",
-      "Intérprete Traductor",
-      "Lengua Inglesa",
-      "Lenguas",
-      "Lenguas Modernas",
-      "Letras Inglesas",
-      "Traducción del Idioma Inglés",
-      "Traducción y Didáctica del Inglés"
-  ];
-
-  const ingles_certificado =[
-    "Certificación Nacional de Nivel de Idioma (CENNI)."
-  ]
-
-  const ingles_maestria =[
-    "No Aplica"
-  ]
-
-  const humanidades_licenciatura = [
-    "Administración y Ciencias Políticas",
-    "Antropología",
-    "Antropología Social y Cultural",
-    "Ciencias Humanas",
-    "Ciencias Jurídicas",
-    "Ciencias Políticas",
-    "Comunicación Social",
-    "Derecho",
-    "Derecho y Ciencias Sociales",
-    "Derecho y Género",
-    "Desarrollo Humano",
-    "Educación Cívica",
-    "Educación con Especialidad en Formación Cívica y Ética",
-    "Educación en el Área de Español y Literatura",
-    "Educación en Lengua y Literatura",
-    "Educación Indígena",
-    "Educación Media con Especialidad en Ciencias Sociales",
-    "Educación Media Especializada en Historia y Civismo",
-    "Educación Media Superior Intercultural",
-    "Educación y Desarrollo Humano",
-    "Estudios de Género",
-    "Estudios Humanísticos y Sociales",
-    "Estudios Latinoamericanos",
-    "Estudios Literarios",
-    "Etnohistoria",
-    "Etnología",
-    "Filología y Literatura",
-    "Filosofía",
-    "Filosofía Social y Política",
-    "Filosofía y Ciencias",
-    "Filosofía y Ciencias Sociales",
-    "Filosofía y Letras",
-    "Filosofía y Literatura",
-    "Historia",
-    "Historia y Sociedad Contemporánea",
-    "Humanidades",
-    "Humanidades y Filosofía",
-    "Letras",
-    "Letras Clásicas",
-    "Letras e Historia",
-    "Letras e Historia Hispánica",
-    "Letras Españolas",
-    "Letras Hispanas",
-    "Letras Hispánicas",
     "Letras Hispanoamericanas",
     "Letras Humanas",
     "Letras Latinoamericanas",
+    "Letras Mexicanas",
     "Letras y Periodismo",
     "Lingüística",
     "Lingüística Aplicada en Traducción",
     "Lingüística y Literatura Hispánica",
     "Literatura",
+    "Literatura Dramática y Teatro",
     "Literatura Hispánica",
     "Literatura Hispanoamericana",
     "Literatura Hispanomexicana",
     "Literatura Iberoamericana",
     "Literatura Latinoamericana",
     "Literatura y Ciencias del Lenguaje",
-    "Literatura y Filosofía",
     "Literatura y Lingüística",
     "Literaturas Hispánicas",
-    "Lógica",
-    "Psicología",
-    "Relaciones Humanas",
-    "Sociología",
-    "Sociología Política",
-    "Teología",
-    "Trabajo Social"
+    "Normalista con Especialidad en Español",
+    "Pedagogía con Especialidad en Español",
+    "Pedagogía con Especialidad en Literatura",
+    "Periodismo",
+    "Periodismo y Comunicación",
+    "Periodismo y Comunicación Colectiva"
   ];
-  const humanidades_ingeneria = [
-    "No Aplica"
-  ];
-  const humanidades_maestria = [
-    "Maestría en Antropología y Estudios de la Cultura",
-    "Maestría en Docencia en Educación Superior de Filosofía",
-    "Maestría en Estudios de Género",
+  const PL_ingeneria = ["No Aplica"]
+  const PL_maestria = [
+    "Maestría en Enseñanza de la Lengua Materna",
+    "Maestría en Enseñanza y Lengua de la Literatura",
     "Maestría en Estudios Humanísticos",
-    "Maestría en Estudios Latinoamericanos",
-    "Maestría en Estudios para la Paz y el Desarrollo",
-    "Maestría en Filosofía",
-    "Maestría en Filosofía de la Ciencia",
-    "Maestría en Filosofía y Letras",
     "Maestría en Lingüística Aplicada"
   ];
+  const ES_licenciatura = [
+  "Agronomía",
+  "Agrónomo Administrador",
+  "Biología",
+  "Biología con Acentuación en Recursos Bióticos",
+  "Biología Experimental",
+  "Biología Marina",
+  "Biólogo Acuacultor",
+  "Ciencias Ambientales",
+  "Ciencias Atmosféricas",
+  "Ciencias de la Educación con Área de Ciencias Químico-Biológicas",
+  "Ciencias Químico-Biológicas",
+  "Diseño de los Asentamientos Humanos",
+  "Ecología",
+  "Ecología Marina",
+  "Ecólogo",
+  "Educación Media con Especialidad en Ciencias Naturales",
+  "Educación Media Superior con Especialidad en Ciencias Naturales",
+  "Educación Media Superior con Especialidad en Geografía",
+  "Geofísica",
+  "Geografía",
+  "Geografía del Diseño de Asentamientos Humanos",
+  "Geografía Humana",
+  "Geografía Social",
+  "Geógrafo",
+  "Geología",
+  "Geólogo",
+  "Geomática",
+  "Hidrobiología",
+  "Manejo de Recursos Naturales",
+  "Marítimas",
+  "Minero Metalurgista",
+  "Normalista con Especialidad en Ciencias Naturales",
+  "Oceanología",
+  "Oceanólogo",
+  "Planeación del Desarrollo Rural",
+  "Planeación Territorial"
+  ];
+  const ES_ingenereria = [
+  "Agrícola",
+  "Agrobiológica",
+  "Agroecológica",
+  "Agroindustrial",
+  "Agrónomo en Sistemas de Producción Agrícola",
+  "Agrónomo en Sistemas Pecuarios de Zonas Áridas",
+  "Agrónomo Especialista en Desarrollo Rural",
+  "Agrónomo Fitotecnista",
+  "Ambiental",
+  "Bioquímico",
+  "Biotecnología",
+  "Ciencias del Mar",
+  "Ciencias Marítimas",
+  "Civil",
+  "Fitotecnia",
+  "Forestal",
+  "Geociencias",
+  "Geodésica",
+  "Geógrafo e Hidrógrafo",
+  "Geohidrología",
+  "Geología",
+  "Geológica",
+  "Hortícola",
+  "Meteorólogo",
+  "Topógrafo"
+  ];
+  const ES_maestria = [
+    "Maestría en Análisis Espacial y Geoinformática."
+  ]
 
-  const LI_licenciatura = [
-    "Análisis Político",
-    "Antropología",
-    "Antropología Histórica",
-    "Antropología Social",
-    "Arqueología",
-    "Ciencias de la Educación con Especialidad en Ciencias Sociales",
-    "Ciencias de la Educación con opción o Especialidad en Ciencias Sociales",
-    "Ciencias Del Hombre",
-    "Ciencias Jurídicas",
-    "Ciencias Políticas",
-    "Ciencias Políticas y Administración Pública",
-    "Ciencias Políticas y Administración Pública Comercial",
-    "Ciencias Sociales",
-    "Comunicación Social",
-    "Demografía",
-    "Derecho y Ciencias Sociales",
-    "Desarrollo Comunitario",
-    "Desarrollo Rural y Gestión Intercultural",
-    "Economía y Gobierno",
-    "Educación Media con Especialidad en Ciencias Sociales",
-    "Educación Media en el Área de Ciencias Sociales",
-    "Educación Media Superior Intercultural",
-    "Epistemología",
-    "Estudios Humanísticos y Sociales",
-    "Estudios Internacionales",
-    "Estudios Latinoamericanos",
-    "Estudios Políticos y de Gobierno",
-    "Estudios Socioterritoriales",
-    "Etnografía",
-    "Etnohistoria",
-    "Etnología",
-    "Filosofía y Ciencias Sociales",
-    "Historia de la Antropología",
-    "Historia de México",
-    "Periodismo y Comunicación Colectiva",
-    "Política y Gestión Social",
-    "Relaciones Internacionales",
-    "Psicología Organizacional",
-    "Sociología",
-    "Sociología de la Educación",
-    "Sociología Política",
-    "Sociología Rural",
-    "Trabajo Social",
-    "Urbanismo"
-  ];
-  const LI_ingeneria =[
-    "No Aplica"
-  ];
-  const LI_maestria = [
-    "Maestría en Análisis Político y Medios de Información",
-    "Maestría en Antropología y Estudios de la Cultura",
-    "Maestría en Ciencias Sociales",
-    "Maestría en Estudios Humanísticos",
-    "Maestría en Estudios Internacionales",
-    "Maestría en Estudios Políticos y Sociales",
-    "Maestría en Ingeniería en Análisis de Decisiones",
-    "Maestría en Innovación Educativa",
-    "Maestría en Mercadotecnia",
-    "Maestría en Psicología",
-    "Maestría en Sociología de la Educación"
-  ];
+
+
+
+
+
+
+
 
   return (
     <div>
@@ -1041,521 +955,96 @@ const Cuarto = () => {
               <h1 className="dark:text-white text-xl p-2">Perfiles para el docente</h1>              
               <Accordion collapseAll>
                   <Accordion.Panel>
-                    <Accordion.Title>Reacciones Químicas: Conservación de la Materia en la Formación de Nuevas Sustancias</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            MI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            MI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            MI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Reacciones Químicas: Conservación de la Materia en la Formación de Nuevas Sustancias"}
+                      licenciatura ={ReaccionesQ_licencia}
+                      ingeneria={ReaccionesQ_ingeneria}
+                      maestria={ReaccionesQ_maestria}
+                      />  
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Conciencia Historica I. Perspectivas del México antiguo. Los Contextos Globales   </Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CS_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CS_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CS_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Conciencia Historica I. Perspectivas del México antiguo. Los Contextos Globales"}
+                      licenciatura ={Historicas_licenciatura}
+                      ingeneria={Historicas_ingeneria}
+                      maestria={Historicas_maestria}
+                      />                    
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>* Taller de Cultura Digital</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CD_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CD_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CD_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"* Taller de Cultura Digital"}
+                      licenciatura ={TCD_licenciatura}
+                      ingeneria={TCD_ingeneria}
+                      maestria={TCD_maestria}
+                      />    
+               
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>* Temas Selectos de Matemáticas I</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                      <Perfiles 
+                      titulo={"* Temas Selectos de Matemáticas I"}
+                      licenciatura ={TSM_licenciatura}
+                      ingeneria={TSM_ingeneria}
+                      maestria={TSM_maestria}
+                      /> 
+            
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>* Pensamiento Literario</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="mas">❌ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"* Pensamiento Literario"}
+                      licenciatura ={PL_licenciatura}
+                      ingeneria={PL_ingeneria}
+                      maestria={PL_maestria}
+                      /> 
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Ingles IV</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles_certificado.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="mas">❌ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"Ingles IV"}
+                      licenciatura ={ingles}
+                      ingeneria={ingles_certificado}
+                      maestria={ingles_maestria}
+                      />           
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>* Espacio y Sociedad</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"* Espacio y Sociedad"}
+                      licenciatura ={ES_licenciatura}
+                      ingeneria={ES_ingenereria}
+                      maestria={ES_maestria}
+                      />
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Ciencias Sociales III</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"Ciencias Sociales III"}
+                      licenciatura ={CS_licenciatura}
+                      ingeneria={CS_ingeneria}
+                      maestria={CS_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Laboral Básico</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"✔️ Laboral Básico"}
+                      licenciatura ={CS_licenciatura}
+                      ingeneria={CS_ingeneria}
+                      maestria={CS_maestria}
+                      />              
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Laboral Básico</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"✔️ Laboral Básico"}
+                      licenciatura ={CS_licenciatura}
+                      ingeneria={CS_ingeneria}
+                      maestria={CS_maestria}
+                      /> 
+               
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title> - Curriculum Ampliado</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"- Curriculum Ampliado"}
+                      licenciatura ={CS_licenciatura}
+                      ingeneria={CS_ingeneria}
+                      maestria={CS_maestria}
+                      /> 
+                  
                   </Accordion.Panel>
                 </Accordion>
             </div>

@@ -15,7 +15,9 @@ const Perfiles = ({titulo, licenciatura, ingeneria, maestria}) => {
                 licenciatura.map((lic) => {
                   return(
                     <div key={lic}>
-                      <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
+                      {
+                        (lic === "No Aplica") ? <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" >❌ {lic}</Badge> : <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" >✅ {lic}</Badge>
+                      }                      
                     </div>
                   )
                 })
@@ -29,7 +31,10 @@ const Perfiles = ({titulo, licenciatura, ingeneria, maestria}) => {
                 ingeneria.map((ing) => {
                   return(
                     <div key={ing}> 
-                      <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
+                      {
+                        (ing === "No Aplica") ? <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" >❌ {ing}</Badge> : <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" >✅ {ing}</Badge>
+                      }   
+                      
                     </div>
                   )
                 })
@@ -43,7 +48,9 @@ const Perfiles = ({titulo, licenciatura, ingeneria, maestria}) => {
                 maestria.map((mas) => {
                   return(
                     <div key={mas}>
-                      <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
+                      {
+                        (mas === "No Aplica") ? <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" >❌ {mas}</Badge> : <Badge className="bg-sky-200 text-sky-900 dark:bg-sky-200 dark:text-sky-900" >✅ {mas}</Badge>
+                        }  
                     </div>
                   )
                 })

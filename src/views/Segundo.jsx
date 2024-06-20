@@ -1,24 +1,25 @@
 import React from 'react'
-import { Table, Accordion, Badge } from "flowbite-react";
+import {  Accordion,Table } from "flowbite-react";
 import {  Outlet } from 'react-router-dom';
 import { Button } from "flowbite-react";
-
+import Perfiles from '../components/Perfiles';
 const Segundo = () => {
   const semestre2 = [
     {
       semestre:"2do Semestre",
-      materia9:"Conservación de la Energía y Sus Interacciones con la Materia",
-      materia10:"Ciencias Sociales II",
-      materia11:"Cultura Digital II",
-      materia12:"Pensamiento Matematico II",
-      materia13:"Lengua y Comunicación II",
-      materia14:"Ingles II",
-      materia15:"Humanidades II",
-      materia16:"* Taller de Ciencias I",
-      curriculum2:" - Curriculum Ampliado"
+      materia1:"Conservación de la Energía y Sus Interacciones con la Materia",
+      materia2:"Ciencias Sociales II",
+      materia3:"Cultura Digital II",
+      materia4:"Pensamiento Matematico II",
+      materia5:"Lengua y Comunicación II",
+      materia6:"Ingles II",
+      materia7:"Humanidades II",
+      materia8:"* Taller de Ciencias I",
+      curriculum:" - Curriculum Ampliado"
     }
   ]
-  const MI_licenciatura = [
+
+  const CE_IM_licenciatura=[
     "Acuacultura",
     "Agrobiotecnología",
     "Bioingeniería",
@@ -101,8 +102,8 @@ const Segundo = () => {
     "Químico Farmacobiólogo",
     "Químico Industrial",
     "Sistemas Costeros"
-  ];
-  const MI_ingeneria = [
+  ]
+  const CE_IM_ingenieria=[
     "Aeroespacial",
     "Aeronáutica",
     "Agrícola",
@@ -220,8 +221,8 @@ const Segundo = () => {
     "Ingeniero Mecánico Electricista",
     "Ingeniero Mecánico Naval",
     "Ingeniero Topógrafo"
-  ];
-  const MI_maestria = [
+  ]
+  const CE_IM_maestria =[
     "Maestría en Biociencias",
     "Maestría en Calidad Ambiental",
     "Maestría en Ciencias con Especialidad en Biotecnología",
@@ -235,7 +236,7 @@ const Segundo = () => {
     "Maestría en Ciencias Químicas",
     "Maestría en Medio Ambiente",
     "Maestría en Polímeros y Materiales"
-  ];
+  ]
 
   const CS_licenciatura = [
     "Administración",
@@ -846,67 +847,223 @@ const Segundo = () => {
     "Maestría en Lingüística Aplicada"
   ];
 
-  const LI_licenciatura = [
-    "Análisis Político",
-    "Antropología",
-    "Antropología Histórica",
-    "Antropología Social",
-    "Arqueología",
-    "Ciencias de la Educación con Especialidad en Ciencias Sociales",
-    "Ciencias de la Educación con opción o Especialidad en Ciencias Sociales",
-    "Ciencias Del Hombre",
-    "Ciencias Jurídicas",
-    "Ciencias Políticas",
-    "Ciencias Políticas y Administración Pública",
-    "Ciencias Políticas y Administración Pública Comercial",
-    "Ciencias Sociales",
-    "Comunicación Social",
-    "Demografía",
-    "Derecho y Ciencias Sociales",
-    "Desarrollo Comunitario",
-    "Desarrollo Rural y Gestión Intercultural",
-    "Economía y Gobierno",
-    "Educación Media con Especialidad en Ciencias Sociales",
-    "Educación Media en el Área de Ciencias Sociales",
-    "Educación Media Superior Intercultural",
-    "Epistemología",
-    "Estudios Humanísticos y Sociales",
-    "Estudios Internacionales",
-    "Estudios Latinoamericanos",
-    "Estudios Políticos y de Gobierno",
-    "Estudios Socioterritoriales",
-    "Etnografía",
-    "Etnohistoria",
-    "Etnología",
-    "Filosofía y Ciencias Sociales",
-    "Historia de la Antropología",
-    "Historia de México",
-    "Periodismo y Comunicación Colectiva",
-    "Política y Gestión Social",
-    "Relaciones Internacionales",
-    "Psicología Organizacional",
-    "Sociología",
-    "Sociología de la Educación",
-    "Sociología Política",
-    "Sociología Rural",
-    "Trabajo Social",
-    "Urbanismo"
+  const TC_licenciatura =[
+  "Acuacultura",
+  "Agrobiotecnología",
+  "Bioingeniería",
+  "Biología",
+  "Biología Ambiental",
+  "Biología Área de Manejo de Recursos Naturales",
+  "Biología en todas sus Especialidades",
+  "Biología Experimental",
+  "Biología Marina",
+  "Biología Molecular",
+  "Biólogo",
+  "Biólogo Acuacultor",
+  "Biomedicina",
+  "Bioquímica en todas sus Especialidades",
+  "Biotecnología",
+  "Biotecnología en Acuacultura",
+  "Biotecnología en todas sus Especialidades",
+  "Biotecnología Genómica",
+  "Ciencia de los Alimentos",
+  "Ciencias",
+  "Ciencias Ambientales",
+  "Ciencias Atmosféricas",
+  "Ciencias de la Tierra",
+  "Ciencias Farmacéuticas",
+  "Ciencias Físico Matemáticas",
+  "Ciencias Genómicas",
+  "Ciencias Químicas",
+  "Cirujano Dentista",
+  "Desarrollo Sustentable",
+  "Ecología",
+  "Ecología Marina",
+  "Educación en Ciencias Naturales",
+  "Educación en El Área De Ciencias Naturales",
+  "Educación en Química Y Biología",
+  "Educación Media con Especialidad en Ciencias Naturales",
+  "Educación Media en el Área de Ciencias Naturales",
+  "Educación Media Superior con Especialidad en Ciencias Experimentales",
+  "Educación Media Superior con Especialidad en Ciencias Naturales",
+  "Educación Media Superior Intercultural con Especialidad en Ciencias Naturales",
+  "Educación Secundaria con Especialidad en Biología",
+  "Educación Secundaria con Especialidad en Ciencias Naturales",
+  "Educación Secundaria con Especialidad en Física",
+  "Educación Secundaria con Especialidad en Química",
+  "Enseñanza de Educación Media Superior en el Área de Ciencias Naturales",
+  "Enseñanza y Aprendizaje de la Biología en Educación Secundaria",
+  "Enseñanza y Aprendizaje de la Física en Educación Secundaria",
+  "Enseñanza y Aprendizaje de la Química en Educación Secundaria",
+  "Estomatología",
+  "Farmacia",
+  "Física",
+  "Física Aplicada",
+  "Física y Matemáticas",
+  "Físico Matemático",
+  "Geociencias",
+  "Geología",
+  "Geólogo Mineralogista",
+  "Hidrobiología",
+  "Manejo de Recursos Naturales",
+  "Medicina",
+  "Medicina Veterinaria Zootecnia",
+  "Médico Cirujano",
+  "Médico Cirujano y Homeópata",
+  "Médico General",
+  "Microbiología",
+  "Minero Metalurgista",
+  "Nanotecnología e Ingeniería Molecular",
+  "Nutrición",
+  "Oceanología",
+  "Producción Animal",
+  "Química",
+  "Química Clínica",
+  "Química de Alimentos",
+  "Químico Bacteriólogo y Parasitólogo",
+  "Químico Biólogo",
+  "Químico Biólogo Clínico",
+  "Químico Biólogo Parasitólogo",
+  "Químico Clínico Biólogo",
+  "Químico Farmacéutico Biólogo",
+  "Químico Farmacéutico Industrial",
+  "Químico Farmacobiólogo",
+  "Químico Industrial",
+  "Sistemas Costeros"
   ];
-  const LI_ingeneria =[
-    "No Aplica"
+  const TC_ingeneria = [
+  "Aeroespacial",
+  "Aeronáutica",
+  "Agrícola",
+  "Agrobiológica",
+  "Agroindustrial",
+  "Agroquímica",
+  "Ambiental",
+  "Biomédica",
+  "Biomédica Industrial",
+  "Civil",
+  "Eléctrica",
+  "Eléctrica Electrónica",
+  "Electromecánica",
+  "Electrónica",
+  "Acuacultura",
+  "Acuicultura",
+  "Agroalimentos",
+  "Agroecología",
+  "Agronomía",
+  "Agronomía en todas sus Especialidades",
+  "Agronomía Fitotecnista",
+  "Agronomía Industrial",
+  "Alimentos",
+  "Análisis Espacial y Biociencias",
+  "Biología Agropecuaria",
+  "Biología Pesquera",
+  "Biónica",
+  "Bioprocesos",
+  "Bioquímica",
+  "Bioquímica Industrial",
+  "Biotecnología",
+  "Ciencias de la Electrónica",
+  "Conservación y Manejo de Recursos Naturales",
+  "Control y Automatización",
+  "Energética",
+  "Energía",
+  "Energías Renovables",
+  "Geología Ambiental",
+  "Hortícola",
+  "Industrias Alimentarias",
+  "Instrumentación Electrónica",
+  "Instrumentación Electrónica y Nanosensores",
+  "Manejo de Recursos Forestales",
+  "Manejo de Recursos Naturales",
+  "Mantenimiento Industrial",
+  "Mantenimiento Petrolero",
+  "Manufactura",
+  "Materiales",
+  "Mecatrónica",
+  "Mecatrónica en todas sus Especialidades",
+  "Metal Mecánica",
+  "Metalurgia",
+  "Metalurgia en todas sus Especialidades",
+  "Metalurgia y Materiales",
+  "Minas",
+  "Minas y Metalurgia",
+  "Nanotecnología",
+  "Pesquerías",
+  "Petroquímica en todas sus Especialidades",
+  "Procesos Ambientales",
+  "Producción Industrial",
+  "Producción Vegetal",
+  "Recursos Naturales Renovables",
+  "Recursos Naturales y Agropecuarios",
+  "Sistemas Ambientales",
+  "Sistemas Automotrices",
+  "Sistemas Costeros",
+  "Sistemas de Energía",
+  "Sistemas Energéticos Sustentables",
+  "Tecnología Ambiental",
+  "Telecomunicaciones",
+  "Telemática",
+  "Topografía en todas sus Especialidades",
+  "Topografía y Geodésica",
+  "Transporte",
+  "Física Industrial",
+  "Forestal",
+  "Geofísica",
+  "Geológica",
+  "Hidráulica",
+  "Hidrológica",
+  "Industrial",
+  "Industrial Manufactura",
+  "Industrial para la Dirección",
+  "Industrial Procesos y Servicios",
+  "Mecánica",
+  "Mecánica Automotriz",
+  "Mecánica Eléctrica",
+  "Mecánica en todas sus Especialidades",
+  "Mecánica Industrial",
+  "Metalúrgica",
+  "Metalúrgica y Ciencias de los Materiales",
+  "Metalurgista y de Materiales",
+  "Oceánica",
+  "Petrolera",
+  "Petroquímica",
+  "Química",
+  "Química Agrícola",
+  "Química Ambiental",
+  "Química en todas sus Especialidades",
+  "Química Industrial",
+  "Química Metalúrgica",
+  "Química Petrolera",
+  "Textil",
+  "Ingeniero Agrónomo",
+  "Ingeniero Agrónomo en Sistemas de Producción Agrícola",
+  "Ingeniero Agrónomo en Sistemas Pecuarios",
+  "Ingeniero Agrónomo especialista en Desarrollo Rural",
+  "Ingeniero Agrónomo especialista en Fitotecnia",
+  "Ingeniero Agrónomo Horticultor",
+  "Ingeniero Agrónomo Industrial",
+  "Ingeniero Electricista",
+  "Ingeniero Físico Industrial",
+  "Ingeniero Mecánico Agrícola",
+  "Ingeniero Mecánico Electricista",
+  "Ingeniero Mecánico Naval",
+  "Ingeniero Topógrafo"
   ];
-  const LI_maestria = [
-    "Maestría en Análisis Político y Medios de Información",
-    "Maestría en Antropología y Estudios de la Cultura",
-    "Maestría en Ciencias Sociales",
-    "Maestría en Estudios Humanísticos",
-    "Maestría en Estudios Internacionales",
-    "Maestría en Estudios Políticos y Sociales",
-    "Maestría en Ingeniería en Análisis de Decisiones",
-    "Maestría en Innovación Educativa",
-    "Maestría en Mercadotecnia",
-    "Maestría en Psicología",
-    "Maestría en Sociología de la Educación"
+  const TC_maestria = [
+  "Maestría en Biociencias",
+  "Maestría en Calidad Ambiental",
+  "Maestría en Ciencias con Especialidad en Biotecnología",
+  "Maestría en Ciencias con Especialidad en Hidrociencias",
+  "Maestría en Ciencias con Especialidad en Ingeniería",
+  "Maestría en Ciencias con Especialidad en Ingeniería Energética",
+  "Maestría en Ciencias con Especialidad en Sistemas Ambientales",
+  "Maestría en Ciencias de los Materiales",
+  "Maestría en Ciencias del Agua",
+  "Maestría en Ciencias en Desarrollo Sostenible",
+  "Maestría en Ciencias Químicas",
+  "Maestría en Medio Ambiente",
+  "Maestría en Polímeros y Materiales"
   ];
 
   return (
@@ -930,7 +1087,7 @@ const Segundo = () => {
                         <Table.Body className="divide-y">
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias9' outline color="gray">{semestre2.materia9}</Button>                              
+                              <Button href='/Materias9' outline color="gray">{semestre2.materia1}</Button>                              
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -939,7 +1096,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias10' outline color="gray">{semestre2.materia10}</Button>
+                              <Button href='/Materias10' outline color="gray">{semestre2.materia2}</Button>
                             </Table.Cell>
                             <Table.Cell>2</Table.Cell>
                             <Table.Cell>0.5</Table.Cell>
@@ -948,7 +1105,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias11' outline color="gray">{semestre2.materia11}</Button>
+                              <Button href='/Materias11' outline color="gray">{semestre2.materia3}</Button>
                             </Table.Cell>
                             <Table.Cell>2</Table.Cell>
                             <Table.Cell>0.5</Table.Cell>
@@ -957,7 +1114,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias12' outline color="gray">{semestre2.materia12}</Button>
+                              <Button href='/Materias12' outline color="gray">{semestre2.materia4}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -966,7 +1123,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias13' outline color="gray">{semestre2.materia13}</Button>
+                              <Button href='/Materias13' outline color="gray">{semestre2.materia5}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -975,7 +1132,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias14' outline color="gray">{semestre2.materia14}</Button>
+                              <Button href='/Materias14' outline color="gray">{semestre2.materia6}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -984,7 +1141,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias15' outline color="gray">{semestre2.materia15}</Button>
+                              <Button href='/Materias15' outline color="gray">{semestre2.materia7}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -993,7 +1150,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias16' outline color="gray">{semestre2.materia16}</Button>
+                              <Button href='/Materias16' outline color="gray">{semestre2.materia8}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -1002,7 +1159,7 @@ const Segundo = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Curriculum2' outline color="gray">{semestre2.curriculum2}</Button>
+                              <Button href='/Curriculum2' outline color="gray">{semestre2.curriculum}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -1020,427 +1177,77 @@ const Segundo = () => {
               <h1 className="dark:text-white text-xl p-2">Perfiles para el docente</h1>              
               <Accordion collapseAll>
                   <Accordion.Panel>
-                    <Accordion.Title>Conservación de la Energía y sus Interacciones con la Materia </Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            MI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            MI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            MI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                      <Perfiles 
+                      titulo={"Conservación de la Energía y sus Interacciones con la Materia"}
+                      licenciatura ={CE_IM_licenciatura}
+                      ingeneria={CE_IM_ingenieria}
+                      maestria={CE_IM_maestria}
+                      />                      
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Ciencias Sociales II</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CS_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CS_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CS_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Ciencias Sociales II"}
+                      licenciatura ={CS_licenciatura}
+                      ingeneria={CS_ingeneria}
+                      maestria={CS_maestria}
+                      />                                
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Cultura Digital II</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CD_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CD_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            CD_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Cultura Digital II"}
+                      licenciatura ={CD_licenciatura}
+                      ingeneria={CD_ingeneria}
+                      maestria={CD_maestria}
+                    />                    
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Pensamiento Matematico II</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Pensamiento Matematico II"}
+                      licenciatura ={PM_licenciatura}
+                      ingeneria={PM_ingeneria}
+                      maestria={PM_maestria}
+                    />                       
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Lengua y Comunicación II</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="mas">❌ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Lengua y Comunicación II"}
+                      licenciatura ={LC_licenciatura}
+                      ingeneria={LC_ingeneria}
+                      maestria={LC_maestria}
+                    />                     
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Ingles II</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles_certificado.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="mas">❌ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Ingles II"}
+                      licenciatura ={ingles}
+                      ingeneria={ingles_certificado}
+                      maestria={ingles_maestria}
+                    />                     
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Humanidades II</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Humanidades II"}
+                      licenciatura ={humanidades_licenciatura}
+                      ingeneria={humanidades_ingeneria}
+                      maestria={humanidades_maestria}
+                    /> 
+                    
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>* Taller de Ciencias I</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"Taller de Ciencias I"}
+                      licenciatura ={TC_licenciatura}
+                      ingeneria={TC_ingeneria}
+                      maestria={TC_maestria}
+                    />                    
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title> - Curriculum Ampliado</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"- Curriculum Ampliado"}
+                      licenciatura ={TC_licenciatura}
+                      ingeneria={TC_ingeneria}
+                      maestria={TC_maestria}
+                    />                     
                   </Accordion.Panel>
                 </Accordion>
             </div>
