@@ -1235,7 +1235,7 @@ const Segundo = () => {
                   </Accordion.Panel>
                   <Accordion.Panel>
                     <Perfiles 
-                      titulo={"Taller de Ciencias I"}
+                      titulo={"* Taller de Ciencias I"}
                       licenciatura ={TC_licenciatura}
                       ingeneria={TC_ingeneria}
                       maestria={TC_maestria}

@@ -43,7 +43,7 @@ export const Materias1 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '> Las moléculas están formadas por átomos, que pueden ser desde dos hasta miles. Las sustancias puras están constituidas por un solo tipo de átomo, molécula o iones. Una sustancia pura tiene propiedades físicas y químicas características y a través de ellas es posible identificarla</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '> Las moléculas están formadas por átomos, que pueden ser desde dos hasta miles. Las sustancias puras están constituidas por un solo tipo de átomo, molécula o iones. Una sustancia pura tiene propiedades físicas y químicas características y a través de ellas es posible identificarla. </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -55,7 +55,7 @@ export const Materias1 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '> Los gases y los líquidos están constituidos por átomos o moléculas que tienen libertad de movimiento. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton ton </strong></p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '> Los gases y los líquidos están constituidos por átomos o moléculas que tienen libertad de movimiento. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton ton </strong> <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton ton </strong></p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
@@ -80,7 +80,7 @@ export const Materias1 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>  En un sólido, los átomos están estrechamente espaciados y vibran en su posición, pero no cambian de ubicación relativa</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>En un sólido, los átomos están estrechamente espaciados y vibran en su posición, pero no cambian de ubicación relativa. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton ton </strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -259,7 +259,7 @@ export const Materias2 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Reconoce sus necesidades materiales (vitales y no vitales) personales, familiares y de su comunidad para comprender y explicar la forma en que son satisfechas.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Reconoce sus necesidades materiales (vitales y no vitales) personales, familiares y de su comunidad para comprender y explicar la forma en que son satisfechas.<strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton ton</strong><strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong><strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -271,7 +271,7 @@ export const Materias2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Identifica, indaga y define los procesos de producción (¿qué producir?, ¿cómo producir?, ¿cuánto producir? y ¿para quién producir?) y sus factores (tierra, trabajo, capital y organización), incluida en este proceso la relación que se establece con la naturaleza; para comprender y explicar cómo se satisfacen las necesidades en la comunidad, región, país y mundo.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Identifica, indaga y define los procesos de producción (¿qué producir?, ¿cómo producir?, ¿cuánto producir? y ¿para quién producir?) y sus factores (tierra, trabajo, capital y organización), incluida en este proceso la relación que se establece con la naturaleza; para comprender y explicar cómo se satisfacen las necesidades en la comunidad, región, país y mundo. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -283,7 +283,7 @@ export const Materias2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Define, aplica y explica cómo se organizan las sociedades, a partir de los elementos que integran la organización de la sociedad: familia y sujeto social, clases y grupos sociales, papel social, comunidad, instituciones e interculturalidad, así como la función que tienen al interior de la misma, y las interrelaciones a que se da lugar entre estos elementos para para ubicarse al interior de la misma como un sujeto social, que a la vez es parte de una colectividad en constante interacción con las diversas colectividades.<strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton ton </strong></p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Define, aplica y explica cómo se organizan las sociedades, a partir de los elementos que integran la organización de la sociedad: familia y sujeto social, clases y grupos sociales, papel social, comunidad, instituciones e interculturalidad, así como la función que tienen al interior de la misma, y las interrelaciones a que se da lugar entre estos elementos para para ubicarse al interior de la misma como un sujeto social, que a la vez es parte de una colectividad en constante interacción con las diversas colectividades.</p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
@@ -296,7 +296,7 @@ export const Materias2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Define e identifica ¿cómo se distribuye la riqueza en las sociedades?, es decir, mediante rentas, sueldos salarios, ganancias o utilidades. Reflexiona en torno a las desigualdades que propicia esta forma de distribución.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Define e identifica ¿cómo se distribuye la riqueza en las sociedades?, es decir, mediante rentas, sueldos salarios, ganancias o utilidades. Reflexiona en torno a las desigualdades que propicia esta forma de distribución.<strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -320,7 +320,7 @@ export const Materias2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Observa, compara y reflexiona respecto a las diferentes combinaciones existentes entre los factores de producción (tierra, trabajo, capital y organización), para explicar el origen de las desigualdades entre los productores. Dependiendo de la forma en que se produzca, se determina la producción, y es posible observar no sólo una diversidad en las formas de producción, sino también diferencias significativas. La producción se puede realizar de forma colectiva-comunitaria, de forma pública por parte del Estado o bien por parte de los particulares.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Observa, compara y reflexiona respecto a las diferentes combinaciones existentes entre los factores de producción (tierra, trabajo, capital y organización), para explicar el origen de las desigualdades entre los productores. Dependiendo de la forma en que se produzca, se determina la producción, y es posible observar no sólo una diversidad en las formas de producción, sino también diferencias significativas. La producción se puede realizar de forma colectiva-comunitaria, de forma pública por parte del Estado o bien por parte de los particulares. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
@@ -332,7 +332,7 @@ export const Materias2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Investiga las teorías sobre el origen del Estado (Rousseau, Hobbes y Locke), así como el surgimiento de los acuerdos fundacionales y Congresos Constituyentes (los cuales son vigentes hasta nuestros días), para explicar la necesidad de esas instituciones rectoras de la vida social ante la complejidad de la sociedad y las desigualdades, considerando que el Estado cuida el interés social.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Investiga las teorías sobre el origen del Estado (Rousseau, Hobbes y Locke), así como el surgimiento de los acuerdos fundacionales y Congresos Constituyentes (los cuales son vigentes hasta nuestros días), para explicar la necesidad de esas instituciones rectoras de la vida social ante la complejidad de la sociedad y las desigualdades, considerando que el Estado cuida el interés social. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton </strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -380,7 +380,7 @@ export const Materias2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza y asume una postura crítica frente a las tres formas de organización económica, como son la economía de mercado, con injerencia mínima del Estado, y la economía centralizada y planificada desde el Estado (socialismo), o la combinación entre el centralismo económico y libre mercado que da lugar a una economía mixta.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza y asume una postura crítica frente a las tres formas de organización económica, como son la economía de mercado, con injerencia mínima del Estado, y la economía centralizada y planificada desde el Estado (socialismo), o la combinación entre el centralismo económico y libre mercado que da lugar a una economía mixta.<strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -874,7 +874,7 @@ export const Materias5 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Identifica y aplica el proceso de prelectura del texto para identificar elementos clave del texto o de la fuente de información.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Identifica y aplica el proceso de prelectura del texto para identificar elementos clave del texto o de la fuente de información. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
@@ -886,7 +886,7 @@ export const Materias5 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza un relato para identificar las afirmaciones centrales distinguiendo así el tema central del texto</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza un relato para identificar las afirmaciones centrales distinguiendo así el tema central del texto. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong> <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1198,7 +1198,7 @@ export const Materias6 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Comprende el uso del verbo modal can (afirmativo, negativo e interrogativo) para hacer solicitudes y pedir o dar permiso.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Comprende el uso del verbo modal can (afirmativo, negativo e interrogativo) para hacer solicitudes y pedir o dar permiso. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1210,7 +1210,7 @@ export const Materias6 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza un relato para identificar las afirmaciones centrales distinguiendo así el tema central del texto.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza un relato para identificar las afirmaciones centrales distinguiendo así el tema central del texto. <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong><strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1222,7 +1222,7 @@ export const Materias6 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Comprende el uso de much, many, a lot, a few, a little y some para describir su plato del buen comer.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Comprende el uso de much, many, a lot, a few, a little y some para describir su plato del buen comer.  <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong><strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong> <strong className="text-white text-sm dark:text-gray-500 ">Ratoncito ton ton</strong></p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1416,7 +1416,7 @@ export const Materias8 = () => {
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-              *Laboratorio de Investigación
+              * Laboratorio de Investigación
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">

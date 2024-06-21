@@ -245,7 +245,7 @@ export const Materias10 = () => {
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              
+              Sin Observaciones
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -514,7 +514,7 @@ export const Materias12 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200'>Compara, considerando sus aprendizajes de trayectoria, el lenguaje natural con el lenguaje matemático para observar que este último requiere de precisión y rigurosidad.     </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200'>Compara, considerando sus aprendizajes de trayectoria, el lenguaje natural con el lenguaje matemático para observar que este último requiere de precisión y rigurosidad. </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -706,7 +706,7 @@ export const Materias13 = () => {
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              
+              Sin Observaciones
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1232,7 +1232,7 @@ export const Materias16 = () => {
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-              *Taller de Ciencias I
+              * Taller de Ciencias I
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
@@ -1373,7 +1373,7 @@ export const Curriculum2 = () => {
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Por su ubicación en el mapa curricular, Curriculum Ampliado busca robustecer los conocimientos de las UAC en diferentes ambientes de aprendizaje.
+               Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1387,7 +1387,7 @@ export const Curriculum2 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1399,7 +1399,7 @@ export const Curriculum2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p> 
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p> 
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1411,7 +1411,7 @@ export const Curriculum2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
@@ -1424,7 +1424,7 @@ export const Curriculum2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1436,7 +1436,7 @@ export const Curriculum2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1448,19 +1448,19 @@ export const Curriculum2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1472,7 +1472,7 @@ export const Curriculum2 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Pendiente...</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />

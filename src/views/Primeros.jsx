@@ -19,7 +19,7 @@ const Primeros = () => {
       curriculum1:" - Curriculum Ampliado",
     }
   ]
-  const MI_licenciatura = [
+  const MI_licenciatura = [ 
     "Acuacultura",
     "Agrobiotecnología",
     "Bioingeniería",

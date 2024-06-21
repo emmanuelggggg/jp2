@@ -7,8 +7,8 @@ const Sexto = () => {
   const semestre6 = [
     {
       semestre:"6to Semestre",
-      materia33:"La Energía en los Procesos de la Vida Diaria",
-      materia34:"Conciencia Historica II. La Realidad actual en Perspectiva Histórica",
+      materia33:"Organismos: Estructuras  y Procesos. Herencia y Evolución Biológica.",
+      materia34:"Conciencia Historica II. La Realidad Actual en Perspectiva Histórica",
       materia35:"* Temas Selectos de Matemáticas II",
       extendido5:"**Extendido",
       extendido6:"**Extendido",
@@ -1032,7 +1032,7 @@ const Sexto = () => {
               <h1 className="dark:text-white text-xl p-2">Perfiles para el docente</h1>              
               <Accordion collapseAll>
                   <Accordion.Panel>
-                    <Accordion.Title>La Energía en los Procesos de la Vida Diaria</Accordion.Title>
+                    <Accordion.Title>Organismos: Estructuras  y Procesos. Herencia y Evolución Biológica.</Accordion.Title>
                       <Accordion.Content >
                         <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
                           Licenciatura
@@ -1079,7 +1079,7 @@ const Sexto = () => {
                       </Accordion.Content>
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Conciencia Historica II. La Realidad actual en Perspectiva Histórica</Accordion.Title>
+                    <Accordion.Title> Conciencia Historica II. La Realidad Actual en Perspectiva Histórica</Accordion.Title>
                       <Accordion.Content >
                         <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
                           Licenciatura
