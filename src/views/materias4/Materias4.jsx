@@ -464,7 +464,7 @@ export const Materias26 = () => {
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-             
+             Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -483,7 +483,7 @@ export const Materias26 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -495,7 +495,7 @@ export const Materias26 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -508,7 +508,7 @@ export const Materias26 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -520,7 +520,7 @@ export const Materias26 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -532,7 +532,7 @@ export const Materias26 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -544,7 +544,7 @@ export const Materias26 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -556,7 +556,7 @@ export const Materias26 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -568,7 +568,7 @@ export const Materias26 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Pensamiento Matemático</div>
+                          <div className="ml-3 text-sm font-normal">Temas Selectos de Matemáticas I</div>
                           
                         </Toast>
                       </div>
@@ -598,7 +598,7 @@ export const Materias27 = () => {
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              
+              Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -617,7 +617,7 @@ export const Materias27 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -629,7 +629,7 @@ export const Materias27 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -642,7 +642,7 @@ export const Materias27 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -654,7 +654,7 @@ export const Materias27 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -666,7 +666,7 @@ export const Materias27 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -678,7 +678,7 @@ export const Materias27 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -690,7 +690,7 @@ export const Materias27 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -702,7 +702,7 @@ export const Materias27 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Lengua y Comunicación</div>
+                          <div className="ml-3 text-sm font-normal">Pensamiento Literario</div>
                           
                         </Toast>
                       </div>
@@ -983,7 +983,7 @@ export const Materias29 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -995,7 +995,7 @@ export const Materias29 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1008,7 +1008,7 @@ export const Materias29 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1020,7 +1020,7 @@ export const Materias29 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1032,7 +1032,7 @@ export const Materias29 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1044,7 +1044,7 @@ export const Materias29 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1056,7 +1056,7 @@ export const Materias29 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1068,7 +1068,7 @@ export const Materias29 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Humanidades</div>
+                          <div className="ml-3 text-sm font-normal">Espacio y Sociedad</div>
                           
                         </Toast>
                       </div>
@@ -1265,21 +1265,21 @@ export const Materias30 = () => {
     </div>
   )
 }
-export const Laboral3 = () => {
+export const MateriasE4 = () => {
   return (
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-            Ciencias Sociales III
+              Orientación Educativa IV
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Por su ubicación en el mapa curricular, Taller de Ciencias I busca robustecer los conocimientos de las UAC de “La materia y sus interacciones” y “Conservación de la energía y sus interacciones con la materia”, a partir de la profundización en la práctica científica. Esto no implica que las UAC anteriores no lleven a cabo ejercicios prácticos por sí mismas, sino que, al retomar los aprendizajes desarrollados en dichas prácticas, se buscará que el estudiantado se apropie de los conceptos centrales y los pueda generalizar en diferentes ambientes de aprendizaje.
+               Sin Observaciones
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1293,102 +1293,283 @@ export const Laboral3 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El desarrollo de tecnologías considera la estructura y propiedades de los materiales, así como su impacto en múltiples ámbitos sociales.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>           </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Los enlaces químicos representan un papel importante en el desarrollo tecnológico, permitiendo la fabricación de materiales más resistentes, duraderos y maleables.</p> 
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>         </p> 
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La materia que utiliza la sociedad no desaparece, se conserva y su gestión a pesar de su desuso es una acción prioritaria desde el desarrollo tecnológico, científico y social.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Las variables de temperatura y presión de un sistema determinado influyen en la materia y cantidad de energía que se requieren para el desarrollo tecnológico. </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>5.	 Los estados de la materia y sus cambios pueden ser identificados en el ciclo hidrológico teniendo una relación de influencia bidireccional en los desarrollos tecnológicos.       </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La transferencia de energía es capaz de modificar un sistema, generando movimiento en sus partículas y el uso de este conocimiento incide en el avance tecnológico y la vida cotidiana.        </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La interacción de la materia con la energía genera cambios físicos y químicos, algunas de estas interacciones son utilizadas en la tecnología influyendo en la sociedad y el ambiente.       </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La ciencia como un esfuerzo humano para el bienestar, parte 1.5 Discusión de la relación entre ciencia, tecnología y sociedad para proponer ideas innovadoras sobre el impacto de materiales y tecnologías.        </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>           </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     
+                    
+                  </ul>
+                </div>
+            </Card>
+        </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+export const Laboral3 = () => {
+  return (
+    <div>
+      <div className="p-4  sm:ml-64 dark:bg-gray-600">
+        <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
+          <div className="border-l-5 border-sky-900">
+            <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
+          Laboral Básico
+            </h1>
+          </div>
+          <div className="overflow-x-auto mt-11">
+            <Card className="w-full">
+              <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
+              <p className='text-gray-800 text-sm dark:text-gray-200 '>
+              Pendiente
+              </p>
+            </Card>
+            <Card  className="w-full flex mt-5 dark:bg-gray-500">
+                <div className="flex justify-between">
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Progresiones </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Perfil </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                </div>
+                <div className="container mx-auto px-4">                  
+                  <ul className='list-decimal text-gray-800 dark:text-white'>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6"/>
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
                     
                   </ul>
                 </div>
@@ -1406,14 +1587,14 @@ export const Laboral4 = () => {
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-            Ciencias Sociales III
+          Laboral Básico
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Por su ubicación en el mapa curricular, Taller de Ciencias I busca robustecer los conocimientos de las UAC de “La materia y sus interacciones” y “Conservación de la energía y sus interacciones con la materia”, a partir de la profundización en la práctica científica. Esto no implica que las UAC anteriores no lleven a cabo ejercicios prácticos por sí mismas, sino que, al retomar los aprendizajes desarrollados en dichas prácticas, se buscará que el estudiantado se apropie de los conceptos centrales y los pueda generalizar en diferentes ambientes de aprendizaje.
+              Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1427,102 +1608,113 @@ export const Laboral4 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El desarrollo de tecnologías considera la estructura y propiedades de los materiales, así como su impacto en múltiples ámbitos sociales.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Los enlaces químicos representan un papel importante en el desarrollo tecnológico, permitiendo la fabricación de materiales más resistentes, duraderos y maleables.</p> 
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La materia que utiliza la sociedad no desaparece, se conserva y su gestión a pesar de su desuso es una acción prioritaria desde el desarrollo tecnológico, científico y social.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Las variables de temperatura y presión de un sistema determinado influyen en la materia y cantidad de energía que se requieren para el desarrollo tecnológico. </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>5.	 Los estados de la materia y sus cambios pueden ser identificados en el ciclo hidrológico teniendo una relación de influencia bidireccional en los desarrollos tecnológicos.       </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La transferencia de energía es capaz de modificar un sistema, generando movimiento en sus partículas y el uso de este conocimiento incide en el avance tecnológico y la vida cotidiana.        </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La interacción de la materia con la energía genera cambios físicos y químicos, algunas de estas interacciones son utilizadas en la tecnología influyendo en la sociedad y el ambiente.       </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La ciencia como un esfuerzo humano para el bienestar, parte 1.5 Discusión de la relación entre ciencia, tecnología y sociedad para proponer ideas innovadoras sobre el impacto de materiales y tecnologías.        </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
-                    
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
                     
                   </ul>
                 </div>
@@ -1540,14 +1732,14 @@ export const Curriculum4 = () => {
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-            Ciencias Sociales III
+              - Curriculum Ampliado
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Por su ubicación en el mapa curricular, Taller de Ciencias I busca robustecer los conocimientos de las UAC de “La materia y sus interacciones” y “Conservación de la energía y sus interacciones con la materia”, a partir de la profundización en la práctica científica. Esto no implica que las UAC anteriores no lleven a cabo ejercicios prácticos por sí mismas, sino que, al retomar los aprendizajes desarrollados en dichas prácticas, se buscará que el estudiantado se apropie de los conceptos centrales y los pueda generalizar en diferentes ambientes de aprendizaje.
+               Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1561,97 +1753,97 @@ export const Curriculum4 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El desarrollo de tecnologías considera la estructura y propiedades de los materiales, así como su impacto en múltiples ámbitos sociales.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Los enlaces químicos representan un papel importante en el desarrollo tecnológico, permitiendo la fabricación de materiales más resistentes, duraderos y maleables.</p> 
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p> 
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La materia que utiliza la sociedad no desaparece, se conserva y su gestión a pesar de su desuso es una acción prioritaria desde el desarrollo tecnológico, científico y social.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Las variables de temperatura y presión de un sistema determinado influyen en la materia y cantidad de energía que se requieren para el desarrollo tecnológico. </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>5.	 Los estados de la materia y sus cambios pueden ser identificados en el ciclo hidrológico teniendo una relación de influencia bidireccional en los desarrollos tecnológicos.       </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Química</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La transferencia de energía es capaz de modificar un sistema, generando movimiento en sus partículas y el uso de este conocimiento incide en el avance tecnológico y la vida cotidiana.        </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Física</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La interacción de la materia con la energía genera cambios físicos y químicos, algunas de estas interacciones son utilizadas en la tecnología influyendo en la sociedad y el ambiente.       </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La ciencia como un esfuerzo humano para el bienestar, parte 1.5 Discusión de la relación entre ciencia, tecnología y sociedad para proponer ideas innovadoras sobre el impacto de materiales y tecnologías.        </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>

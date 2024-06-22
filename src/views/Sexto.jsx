@@ -2,14 +2,16 @@ import React from 'react'
 import { Table, Accordion, Badge } from "flowbite-react";
 import {  Outlet } from 'react-router-dom';
 import { Button } from "flowbite-react";
+import Perfiles from '../components/Perfiles';
 
 const Sexto = () => {
   const semestre6 = [
     {
-      semestre:"6to Semestre",
+      semestre:"Profesiograma de 6to. Semestre",
       materia33:"Organismos: Estructuras  y Procesos. Herencia y Evolución Biológica.",
       materia34:"Conciencia Historica II. La Realidad Actual en Perspectiva Histórica",
       materia35:"* Temas Selectos de Matemáticas II",
+      materiaE6:"Orientación Educativa VI",
       extendido5:"**Extendido",
       extendido6:"**Extendido",
       extendido7:"**Extendido",
@@ -912,6 +914,120 @@ const Sexto = () => {
     "Maestría en Sociología de la Educación"
   ];
 
+  const OE_licenciatura = [
+    "Ciencias de la Educación",
+    "Ciencias de la Educación con Énfasis en Ciencias Sociales y en Psicología Educativa",
+    "Ciencias de la Educación con Formación en Docencia e Investigación",
+    "Ciencias de la Familia",
+    "Ciencias del Comportamiento",
+    "Comunicación Educativa",
+    "Comunicación Humana",
+    "Desarrollo Educativo",
+    "Desarrollo Humano",
+    "Desarrollo Humano Diferencial",
+    "Desarrollo Humano en la Organización",
+    "Docencia en el Área de Ciencias Sociales y Humanidades",
+    "Docencia para la Educación Media Superior",
+    "Docencia Tecnológica",
+    "Educación con Orientación y Tutoría",
+    "Educación en Desarrollo Humano",
+    "Educación en Pedagogía",
+    "Educación en Psicología",
+    "Educación en Psicopedagogía",
+    "Educación Especial",
+    "Educación Inicial",
+    "Educación Media en el Área de Ciencias Sociales",
+    "Educación y Desarrollo Humano",
+    "Educación y Docencia",
+    "Innovación y Asesoramiento Psicopedagógico",
+    "Neurocognición y Aprendizaje",
+    "Neuropsicología y Educación",
+    "Orientación Educativa",
+    "Orientación Psicológica",
+    "Orientación y Consejo Educativos",
+    "Pedagogía",
+    "Pedagogía con Terminal en Educación Básica",
+    "Psicología",
+    "Psicología Clínica",
+    "Psicología de la Adolescencia",
+    "Psicología de la Salud",
+    "Psicología del Deporte",
+    "Psicología del Factor Humano",
+    "Psicología del Trabajo",
+    "Psicología del Trabajo y las Organizaciones",
+    "Psicología Educativa",
+    "Psicología en Ciencias Humanas",
+    "Psicología en el Área del Trabajo",
+    "Psicología en el Área Deportiva",
+    "Psicología en el Área Social",
+    "Psicología Familiar",
+    "Psicología Humanista",
+    "Psicología Industrial",
+    "Psicología Industrial y Educativa",
+    "Psicología Laboral",
+    "Psicología Organizacional",
+    "Psicología Social",
+    "Psicología Social de Grupos e Instituciones",
+    "Psicopedagogía",
+    "Sociología",
+    "Sociología Transpersonal",
+    "Trabajo Social"
+  ];
+
+  const OE_ingeneria = [
+    "No Aplica",
+    
+  ];
+
+  const OE_maestria = [
+    "No Aplica",
+    
+  ];
+
+  const E_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const E_ingeneria = [
+    "Pendiente",
+    
+  ];
+
+  const E_maestria = [
+    "Pendiente",
+    
+  ];
+
+
+
+  const LB_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const LB_ingeneria = [
+    "Pendiente",
+    
+  ];
+
+  const LB_maestria = [
+    "Pendiente",
+    
+  ];
+
+  const CA_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const CA_ingeneria = [
+    "Pendiente",
+    
+  ];
+
+  const CA_maestria = [
+    "Pendiente",
+    
+  ];
+
   return (
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
@@ -957,6 +1073,15 @@ const Sexto = () => {
                             <Table.Cell>1</Table.Cell>
                             <Table.Cell>5</Table.Cell>
                             <Table.Cell>8</Table.Cell>
+                          </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                              <Button href='/MateriasE6' outline color="gray">{semestre6.materiaE6}</Button>
+                            </Table.Cell>
+                            <Table.Cell>3</Table.Cell>
+                            <Table.Cell>0.75</Table.Cell>
+                            <Table.Cell>3.75</Table.Cell>
+                            <Table.Cell>6</Table.Cell>
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
@@ -1173,334 +1298,70 @@ const Sexto = () => {
                       </Accordion.Content>
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>**Extendido</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-blue-200 text-blue-800 dark:bg-blue-200 dark:text-blue-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            PM_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"Orientación Educativa V"}
+                      licenciatura ={OE_licenciatura}
+                      ingeneria={OE_ingeneria}
+                      maestria={OE_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>**Extendido</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LC_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="mas">❌ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"**Extendido"}
+                      licenciatura ={E_licenciatura}
+                      ingeneria={E_ingeneria}
+                      maestria={E_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>**Extendido</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles_certificado.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="ing">✅ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            ingles_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="mas">❌ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"**Extendido"}
+                      licenciatura ={E_licenciatura}
+                      ingeneria={E_ingeneria}
+                      maestria={E_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>**Extendido</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            humanidades_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"**Extendido"}
+                      licenciatura ={E_licenciatura}
+                      ingeneria={E_ingeneria}
+                      maestria={E_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Laboral Básico</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                     <Perfiles 
+                      titulo={"**Extendido"}
+                      licenciatura ={E_licenciatura}
+                      ingeneria={E_ingeneria}
+                      maestria={E_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title>Laboral Básico</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"✔️ Laboral Básico"}
+                      licenciatura ={LB_licenciatura}
+                      ingeneria={LB_ingeneria}
+                      maestria={LB_maestria}
+                      />               
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title> - Curriculum Ampliado</Accordion.Title>
-                      <Accordion.Content >
-                        <p className="mb-2 text-gray-500 font-bold dark:text-gray-400">
-                          Licenciatura
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_licenciatura.map((lic) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-green-200 text-green-800 dark:bg-green-200 dark:text-green-800" key="lic">✅ {lic}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Ingeneria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_ingeneria.map((ing) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-red-200 text-red-800 dark:bg-red-200 dark:text-red-800" key="ing">❌ {ing}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                        <p className="mb-2 mt-10 text-gray-500 font-bold dark:text-gray-400">
-                          Maestria
-                        </p>    
-                        <div className="flex flex-wrap gap-2">
-                          {
-                            LI_maestria.map((mas) => {
-                              return(
-                                <div>
-                                  <Badge className="bg-orange-200 text-orange-800 dark:bg-orange-200 dark:text-orange-800" key="mas">✅ {mas}</Badge>
-                                </div>
-                              )
-                            })
-                          }
-                        </div>
-                      </Accordion.Content>
+                    <Perfiles 
+                      titulo={"✔️ Laboral Básico"}
+                      licenciatura ={LB_licenciatura}
+                      ingeneria={LB_ingeneria}
+                      maestria={LB_maestria}
+                      />    
                   </Accordion.Panel>
+                  <Accordion.Panel>
+                     <Perfiles 
+                      titulo={"- Curriculum Ampliado"}
+                      licenciatura ={CA_licenciatura}
+                      ingeneria={CA_ingeneria}
+                      maestria={CA_maestria}
+                      />    
+                  </Accordion.Panel>
+                  
                 </Accordion>
             </div>
         </div>

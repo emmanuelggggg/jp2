@@ -6,13 +6,14 @@ import Perfiles from "../components/Perfiles";
 const Tercero = () => {
   const semestre3 = [
     {
-      semestre:"3er Semestre",
+      semestre:"Profesiograma de 3er. Semestre",
       materia17:"Ecosistemas, Interacciones, Energía y Dinámica",
       materia18:"Pensamiento Matematico III",
       materia19:"Lengua y Comunicación III",
       materia20:"Ingles III",
       materia21:"Humanidades III",
       materia22:"* Taller de Ciencias II",
+      materiaE3:"Orientación Educativa III",
       laboral1:"Laboral Básico",
       laboral2:"Laboral Básico",
       curriculum3:" - Curriculum Ampliado",
@@ -863,6 +864,105 @@ const Tercero = () => {
   "Maestría en Polímeros y Materiales"
   ];
 
+  const OE_licenciatura = [
+    "Ciencias de la Educación",
+    "Ciencias de la Educación con Énfasis en Ciencias Sociales y en Psicología Educativa",
+    "Ciencias de la Educación con Formación en Docencia e Investigación",
+    "Ciencias de la Familia",
+    "Ciencias del Comportamiento",
+    "Comunicación Educativa",
+    "Comunicación Humana",
+    "Desarrollo Educativo",
+    "Desarrollo Humano",
+    "Desarrollo Humano Diferencial",
+    "Desarrollo Humano en la Organización",
+    "Docencia en el Área de Ciencias Sociales y Humanidades",
+    "Docencia para la Educación Media Superior",
+    "Docencia Tecnológica",
+    "Educación con Orientación y Tutoría",
+    "Educación en Desarrollo Humano",
+    "Educación en Pedagogía",
+    "Educación en Psicología",
+    "Educación en Psicopedagogía",
+    "Educación Especial",
+    "Educación Inicial",
+    "Educación Media en el Área de Ciencias Sociales",
+    "Educación y Desarrollo Humano",
+    "Educación y Docencia",
+    "Innovación y Asesoramiento Psicopedagógico",
+    "Neurocognición y Aprendizaje",
+    "Neuropsicología y Educación",
+    "Orientación Educativa",
+    "Orientación Psicológica",
+    "Orientación y Consejo Educativos",
+    "Pedagogía",
+    "Pedagogía con Terminal en Educación Básica",
+    "Psicología",
+    "Psicología Clínica",
+    "Psicología de la Adolescencia",
+    "Psicología de la Salud",
+    "Psicología del Deporte",
+    "Psicología del Factor Humano",
+    "Psicología del Trabajo",
+    "Psicología del Trabajo y las Organizaciones",
+    "Psicología Educativa",
+    "Psicología en Ciencias Humanas",
+    "Psicología en el Área del Trabajo",
+    "Psicología en el Área Deportiva",
+    "Psicología en el Área Social",
+    "Psicología Familiar",
+    "Psicología Humanista",
+    "Psicología Industrial",
+    "Psicología Industrial y Educativa",
+    "Psicología Laboral",
+    "Psicología Organizacional",
+    "Psicología Social",
+    "Psicología Social de Grupos e Instituciones",
+    "Psicopedagogía",
+    "Sociología",
+    "Sociología Transpersonal",
+    "Trabajo Social"
+  ];
+
+  const OE_ingeneria = [
+    "No Aplica",
+    
+  ];
+
+  const OE_maestria = [
+    "No Aplica",
+    
+  ];
+
+  
+  const LB_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const LB_ingeneria = [
+    "Pendiente",
+    
+  ];
+
+  const LB_maestria = [
+    "Pendiente",
+    
+  ];
+
+  const CA_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const CA_ingeneria = [
+    "Pendiente",
+    
+  ];
+
+  const CA_maestria = [
+    "Pendiente",
+    
+  ];
+
   return (
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
@@ -930,6 +1030,15 @@ const Tercero = () => {
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
                               <Button href='/Materias22' outline color="gray">{semestre3.materia22}</Button>
+                            </Table.Cell>
+                            <Table.Cell>3</Table.Cell>
+                            <Table.Cell>0.75</Table.Cell>
+                            <Table.Cell>3.75</Table.Cell>
+                            <Table.Cell>6</Table.Cell>
+                          </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                              <Button href='/MateriasE3' outline color="gray">{semestre3.materiaE3}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -1023,26 +1132,34 @@ const Tercero = () => {
                   </Accordion.Panel>
                   <Accordion.Panel>
                     <Perfiles 
+                      titulo={"Orientación Educativa III"}
+                      licenciatura ={OE_licenciatura}
+                      ingeneria={OE_ingeneria}
+                      maestria={OE_maestria}
+                      />                    
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                    <Perfiles 
                       titulo={"✔️ Laboral Básico"}
-                      licenciatura ={TC_licenciatura}
-                      ingeneria={TC_ingeneria}
-                      maestria={TC_maestria}
+                      licenciatura ={LB_licenciatura}
+                      ingeneria={LB_ingeneria}
+                      maestria={LB_maestria}
                       />               
                   </Accordion.Panel>
                   <Accordion.Panel>
                     <Perfiles 
                       titulo={"✔️ Laboral Básico"}
-                      licenciatura ={TC_licenciatura}
-                      ingeneria={TC_ingeneria}
-                      maestria={TC_maestria}
+                      licenciatura ={LB_licenciatura}
+                      ingeneria={LB_ingeneria}
+                      maestria={LB_maestria}
                       />    
                   </Accordion.Panel>
                   <Accordion.Panel>
                      <Perfiles 
                       titulo={"- Curriculum Ampliado"}
-                      licenciatura ={TC_licenciatura}
-                      ingeneria={TC_ingeneria}
-                      maestria={TC_maestria}
+                      licenciatura ={CA_licenciatura}
+                      ingeneria={CA_ingeneria}
+                      maestria={CA_maestria}
                       />    
                   </Accordion.Panel>
                   

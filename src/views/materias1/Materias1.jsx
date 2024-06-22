@@ -705,7 +705,7 @@ export const Materias4 = () => {
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>9.	Analiza dos o más variables cuantitativas a través del estudio de alguna problemática o fenómenos de interés para el estudiantado, con la finalidad de identificar si existe correlación entre dichas variables.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza dos o más variables cuantitativas a través del estudio de alguna problemática o fenómenos de interés para el estudiantado, con la finalidad de identificar si existe correlación entre dichas variables.</p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
@@ -1580,6 +1580,165 @@ export const Materias8 = () => {
                         </Toast>
                       </div>
                     </li>
+                  </ul>
+                </div>
+            </Card>
+        </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+export const MateriasE9 = () => {
+  return (
+    <div>
+      <div className="p-4  sm:ml-64 dark:bg-gray-600">
+        <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
+          <div className="border-l-5 border-sky-900">
+            <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
+            Orientación Educativa I 
+            </h1>
+          </div>
+          <div className="overflow-x-auto mt-11">
+            <Card className="w-full">
+              <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
+              <p className='text-gray-800 text-sm dark:text-gray-200 '>
+              Sin Observaciones 
+              </p>
+            </Card>
+            <Card  className="w-full flex mt-5 dark:bg-gray-500">
+                <div className="flex justify-between">
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Progresiones </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Perfil </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                </div>
+                <div className="container mx-auto px-4">                  
+                  <ul className='list-decimal text-gray-800 dark:text-white'>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Conoce a tu Plantel, identifica las áreas académicas, administrativas, escolares, examina los
+                        reglamentos para asumir sus derechos y obligaciones como estudiante integrante de la comunidad escolar para propiciar integración, identidad, desempeño escolar y la participación activa en actividades sociales, educativas, deportivas, artísticas y culturales organizadas por COBACH BCS.
+                        </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Aplica diferentes test para determinar estilos de aprendizaje mejorar la comprensión y rendimiento escolar como estudiante de COBACH BCS.      </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Practica las acciones para administrar el tiempo, técnicas de estudio más eficientes y su relación con campos disciplinares y/o ámbitos de formación socioemocional como estudiante de COBACH BCS.       </p>
+                        
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Analiza los elementos para una comunicación asertiva y técnicas de negociación para mejorar su desarrollo como estudiante y en los contextos en donde se desenvuelva.       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Identifica y practica las técnicas para la comunicación asertiva y negociación con el propósito de convertirse en mejores personas que sean factor de transformación de su entorno.         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Identifica sus emociones experimentadas con más frecuencia en situaciones cotidianas y analiza cuales han sido sus reacciones y que efectos han propiciado en su persona.        </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6"/>
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Reconoce los diferentes tipos de emociones y practica técnicas de autorregulación emocional, relajación y concentración con el propósito de afrontar y solucionar conflictos que mejoren su desarrollo como estudiante en proyectos y acciones compartidas en la comunidad escolar y sus contextos        </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Reconoce los elementos que fortalecen o limitan en el proceso de integración de un Plan de vida y la importancia de identificar las oportunidades en los diferentes contextos para la toma de decisiones como estudiante de COBACH BCS         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Reconoce y aplica diferentes cuestionarios vocacionales y analiza su aportación para la elección de carrera profesional y diseña un proyecto de vida laboral a partir de las alternativas para elegir la carrera profesional.         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Diseña un plan de actividades que contribuya con la práctica de hábitos saludables con el propósito de mejorar su salud como estudiante de COBACH BCS.         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    
                   </ul>
                 </div>
             </Card>

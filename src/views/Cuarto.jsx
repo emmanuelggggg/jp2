@@ -6,7 +6,7 @@ import Perfiles from '../components/Perfiles';
 const Cuarto = () => {
   const semestre4 = [
     {
-      semestre:"4to Semestre",
+      semestre:"Profesiograma de 4to. Semestre",
       materia23:"Reacciones Químicas: Conservación de la Materia en la Formación de Nuevas Sustancias",
       materia24:"Conciencia Historica I. Perspectivas del México antiguo. Los Contextos Globales",
       materia25:"* Taller de Cultura Digital",
@@ -15,6 +15,7 @@ const Cuarto = () => {
       materia28:"Ingles IV",
       materia29:"* Espacio y Sociedad",
       materia30:"Ciencias Sociales III",
+      materiaE4:"Orientación Educativa IV",
       laboral3:"Laboral Básico",
       laboral4:"Laboral Básico",
       curriculum4:"- Curriculum Ampliado",
@@ -817,14 +818,105 @@ const Cuarto = () => {
   const ES_maestria = [
     "Maestría en Análisis Espacial y Geoinformática."
   ]
+  
 
+  const OE_licenciatura = [
+    "Ciencias de la Educación",
+    "Ciencias de la Educación con Énfasis en Ciencias Sociales y en Psicología Educativa",
+    "Ciencias de la Educación con Formación en Docencia e Investigación",
+    "Ciencias de la Familia",
+    "Ciencias del Comportamiento",
+    "Comunicación Educativa",
+    "Comunicación Humana",
+    "Desarrollo Educativo",
+    "Desarrollo Humano",
+    "Desarrollo Humano Diferencial",
+    "Desarrollo Humano en la Organización",
+    "Docencia en el Área de Ciencias Sociales y Humanidades",
+    "Docencia para la Educación Media Superior",
+    "Docencia Tecnológica",
+    "Educación con Orientación y Tutoría",
+    "Educación en Desarrollo Humano",
+    "Educación en Pedagogía",
+    "Educación en Psicología",
+    "Educación en Psicopedagogía",
+    "Educación Especial",
+    "Educación Inicial",
+    "Educación Media en el Área de Ciencias Sociales",
+    "Educación y Desarrollo Humano",
+    "Educación y Docencia",
+    "Innovación y Asesoramiento Psicopedagógico",
+    "Neurocognición y Aprendizaje",
+    "Neuropsicología y Educación",
+    "Orientación Educativa",
+    "Orientación Psicológica",
+    "Orientación y Consejo Educativos",
+    "Pedagogía",
+    "Pedagogía con Terminal en Educación Básica",
+    "Psicología",
+    "Psicología Clínica",
+    "Psicología de la Adolescencia",
+    "Psicología de la Salud",
+    "Psicología del Deporte",
+    "Psicología del Factor Humano",
+    "Psicología del Trabajo",
+    "Psicología del Trabajo y las Organizaciones",
+    "Psicología Educativa",
+    "Psicología en Ciencias Humanas",
+    "Psicología en el Área del Trabajo",
+    "Psicología en el Área Deportiva",
+    "Psicología en el Área Social",
+    "Psicología Familiar",
+    "Psicología Humanista",
+    "Psicología Industrial",
+    "Psicología Industrial y Educativa",
+    "Psicología Laboral",
+    "Psicología Organizacional",
+    "Psicología Social",
+    "Psicología Social de Grupos e Instituciones",
+    "Psicopedagogía",
+    "Sociología",
+    "Sociología Transpersonal",
+    "Trabajo Social"
+  ];
 
+  const OE_ingeneria = [
+    "No Aplica",
+    
+  ];
 
+  const OE_maestria = [
+    "No Aplica",
+    
+  ];
 
+  const LB_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const LB_ingeneria = [
+    "Pendiente",
+    
+  ];
 
+  const LB_maestria = [
+    "Pendiente",
+    
+  ];
 
+  const CA_licenciatura = [
+    "Pendiente",
+    
+  ];
+  const CA_ingeneria = [
+    "Pendiente",
+    
+  ];
 
-
+  const CA_maestria = [
+    "Pendiente",
+    
+  ];
 
   return (
     <div>
@@ -919,7 +1011,7 @@ const Cuarto = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias30' outline color="gray">{semestre4.laboral3}</Button>
+                              <Button href='/MateriasE4' outline color="gray">{semestre4.materiaE4}</Button>
                             </Table.Cell>
                             <Table.Cell>3</Table.Cell>
                             <Table.Cell>0.75</Table.Cell>
@@ -928,7 +1020,16 @@ const Cuarto = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias30' outline color="gray">{semestre4.laboral4}</Button>
+                              <Button href='/Laboral3' outline color="gray">{semestre4.laboral3}</Button>
+                            </Table.Cell>
+                            <Table.Cell>3</Table.Cell>
+                            <Table.Cell>0.75</Table.Cell>
+                            <Table.Cell>3.75</Table.Cell>
+                            <Table.Cell>6</Table.Cell>
+                          </Table.Row>
+                          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                              <Button href='/Laboral4' outline color="gray">{semestre4.laboral4}</Button>
                             </Table.Cell>
                             <Table.Cell>4</Table.Cell>
                             <Table.Cell>1</Table.Cell>
@@ -937,7 +1038,7 @@ const Cuarto = () => {
                           </Table.Row>
                           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                              <Button href='/Materias30' outline color="gray">{semestre4.curriculum4}</Button>
+                              <Button href='/Curriculum4' outline color="gray">{semestre4.curriculum4}</Button>
                             </Table.Cell>
                             <Table.Cell>2</Table.Cell>
                             <Table.Cell>0.5</Table.Cell>
@@ -1021,30 +1122,36 @@ const Cuarto = () => {
                       />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Perfiles 
-                      titulo={"✔️ Laboral Básico"}
-                      licenciatura ={CS_licenciatura}
-                      ingeneria={CS_ingeneria}
-                      maestria={CS_maestria}
-                      />              
+                     <Perfiles 
+                      titulo={"Orientación Educativa IV"}
+                      licenciatura ={OE_licenciatura}
+                      ingeneria={OE_ingeneria}
+                      maestria={OE_maestria}
+                      />                   
                   </Accordion.Panel>
                   <Accordion.Panel>
                     <Perfiles 
                       titulo={"✔️ Laboral Básico"}
-                      licenciatura ={CS_licenciatura}
-                      ingeneria={CS_ingeneria}
-                      maestria={CS_maestria}
-                      /> 
-               
+                      licenciatura ={LB_licenciatura}
+                      ingeneria={LB_ingeneria}
+                      maestria={LB_maestria}
+                      />               
                   </Accordion.Panel>
                   <Accordion.Panel>
                     <Perfiles 
+                      titulo={"✔️ Laboral Básico"}
+                      licenciatura ={LB_licenciatura}
+                      ingeneria={LB_ingeneria}
+                      maestria={LB_maestria}
+                      />    
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                     <Perfiles 
                       titulo={"- Curriculum Ampliado"}
-                      licenciatura ={CS_licenciatura}
-                      ingeneria={CS_ingeneria}
-                      maestria={CS_maestria}
-                      /> 
-                  
+                      licenciatura ={CA_licenciatura}
+                      ingeneria={CA_ingeneria}
+                      maestria={CA_maestria}
+                      />    
                   </Accordion.Panel>
                 </Accordion>
             </div>

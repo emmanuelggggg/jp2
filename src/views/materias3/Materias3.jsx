@@ -1180,21 +1180,21 @@ export const Materias22 = () => {
     </div>
   )
 }
-export const Laboral1 = () => {
+export const MateriasE3 = () => {
   return (
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-            * Taller de Ciencias II
+              Orientación Educativa III 
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Metodología de investigación,  Biología, Física, Química, Ecología.
+               Sin Observaciones
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1208,112 +1208,279 @@ export const Laboral1 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>A través de la observación de su contexto, los y las estudiantes identificaran un fenómeno natural de su interés que involucre el flujo de energía en sistemas.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>           </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Biología, Física, Química, Ecología.</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Las y los estudiantes formularán una pregunta de investigación que le permita delimitar el tema del proyecto que se realizará.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>         </p> 
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>A partir de la pregunta de investigación, el estudiantado formula
-                        una hipótesis que permita dar una posible respuesta a la pregunta de investigación.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado realiza un diseño experimental que le permita poner a prueba su hipótesis.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado manipulará variables y recopilará los datos pertinentes para la posterior comprobación de su hipótesis.     </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado analizará los datos recopilados contrastando lo observado, sus conocimientos previos y la información documental.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado interpretará los resultados del análisis de datos, a partir la pregunta de investigación.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado formulará conclusiones a partir del rechazo o
-                          validación de la hipótesis. Se discutirán las implicaciones de los hallazgos, así como su utilidad o valor práctico en el contexto
-                              </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La ciencia como un esfuerzo humano para el bienestar, parte 3.5.: El estudiantado comunicará sus resultados considerando que la esencia de la ciencia es la divulgación de los mismos, los cuales pueden ser obtenidos mediante el proceso de investigación. La comunicación o divulgación de la investigación científica puede acercar a las personas con la ciencia.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>           </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    
+                    
+                  </ul>
+                </div>
+            </Card>
+        </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+export const Laboral1 = () => {
+  return (
+    <div>
+      <div className="p-4  sm:ml-64 dark:bg-gray-600">
+        <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
+          <div className="border-l-5 border-sky-900">
+            <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
+             Laboral Básico 
+            </h1>
+          </div>
+          <div className="overflow-x-auto mt-11">
+            <Card className="w-full">
+              <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
+              <p className='text-gray-800 text-sm dark:text-gray-200 '>
+              Pendiente
+              </p>
+            </Card>
+            <Card  className="w-full flex mt-5 dark:bg-gray-500">
+                <div className="flex justify-between">
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Progresiones </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Perfil </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                </div>
+                <div className="container mx-auto px-4">                  
+                  <ul className='list-decimal text-gray-800 dark:text-white'>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6"/>
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
@@ -1335,14 +1502,14 @@ export const Laboral2 = () => {
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-            * Taller de Ciencias II
+            Laboral Básico
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Metodología de investigación,  Biología, Física, Química, Ecología.
+              Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1356,112 +1523,109 @@ export const Laboral2 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>A través de la observación de su contexto, los y las estudiantes identificaran un fenómeno natural de su interés que involucre el flujo de energía en sistemas.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Biología, Física, Química, Ecología.</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Las y los estudiantes formularán una pregunta de investigación que le permita delimitar el tema del proyecto que se realizará.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>A partir de la pregunta de investigación, el estudiantado formula
-                        una hipótesis que permita dar una posible respuesta a la pregunta de investigación.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado realiza un diseño experimental que le permita poner a prueba su hipótesis.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado manipulará variables y recopilará los datos pertinentes para la posterior comprobación de su hipótesis.     </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado analizará los datos recopilados contrastando lo observado, sus conocimientos previos y la información documental.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado interpretará los resultados del análisis de datos, a partir la pregunta de investigación.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado formulará conclusiones a partir del rechazo o
-                          validación de la hipótesis. Se discutirán las implicaciones de los hallazgos, así como su utilidad o valor práctico en el contexto
-                              </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La ciencia como un esfuerzo humano para el bienestar, parte 3.5.: El estudiantado comunicará sus resultados considerando que la esencia de la ciencia es la divulgación de los mismos, los cuales pueden ser obtenidos mediante el proceso de investigación. La comunicación o divulgación de la investigación científica puede acercar a las personas con la ciencia.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Laboral Básico</div>
                           
                         </Toast>
                       </div>
@@ -1483,14 +1647,14 @@ export const Curriculum3 = () => {
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
           <div className="border-l-5 border-sky-900">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
-            * Taller de Ciencias II
+              - Curriculum Ampliado
             </h1>
           </div>
           <div className="overflow-x-auto mt-11">
             <Card className="w-full">
               <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
               <p className='text-gray-800 text-sm dark:text-gray-200 '>
-              Metodología de investigación,  Biología, Física, Química, Ecología.
+               Pendiente
               </p>
             </Card>
             <Card  className="w-full flex mt-5 dark:bg-gray-500">
@@ -1504,116 +1668,102 @@ export const Curriculum3 = () => {
                   <ul className='list-decimal text-gray-800 dark:text-white'>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>A través de la observación de su contexto, los y las estudiantes identificaran un fenómeno natural de su interés que involucre el flujo de energía en sistemas.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>      </p>
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Biología, Física, Química, Ecología.</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>Las y los estudiantes formularán una pregunta de investigación que le permita delimitar el tema del proyecto que se realizará.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p> 
                         <Toast>
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>A partir de la pregunta de investigación, el estudiantado formula
-                        una hipótesis que permita dar una posible respuesta a la pregunta de investigación.</p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado realiza un diseño experimental que le permita poner a prueba su hipótesis.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado manipulará variables y recopilará los datos pertinentes para la posterior comprobación de su hipótesis.     </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado analizará los datos recopilados contrastando lo observado, sus conocimientos previos y la información documental.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado interpretará los resultados del análisis de datos, a partir la pregunta de investigación.    </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
                     <li>
                       <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>El estudiantado formulará conclusiones a partir del rechazo o
-                          validación de la hipótesis. Se discutirán las implicaciones de los hallazgos, así como su utilidad o valor práctico en el contexto
-                              </p>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>       </p>
                         <Toast>
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
+                          <div className="ml-3 text-sm font-normal">Curriculum Ampliado</div>
                           
                         </Toast>
                       </div>
                     </li>
-                    <li>
-                      <div className='flex jsutify-center'>
-                        <p className='text-gray-800 text-sm dark:text-gray-200 '>La ciencia como un esfuerzo humano para el bienestar, parte 3.5.: El estudiantado comunicará sus resultados considerando que la esencia de la ciencia es la divulgación de los mismos, los cuales pueden ser obtenidos mediante el proceso de investigación. La comunicación o divulgación de la investigación científica puede acercar a las personas con la ciencia.    </p>
-                        <Toast>
-                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
-                            <HiCheck className="h-6 w-6" />
-                          </div>
-                          <div className="ml-3 text-sm font-normal">Metodología de investigación</div>
-                          
-                        </Toast>
-                      </div>
-                    </li>
+                    
                     
                   </ul>
                 </div>
@@ -1624,7 +1774,3 @@ export const Curriculum3 = () => {
     </div>
   )
 }
-
-
-
-

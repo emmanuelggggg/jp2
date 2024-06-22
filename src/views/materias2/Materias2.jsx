@@ -725,7 +725,7 @@ export const Materias13 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -737,7 +737,7 @@ export const Materias13 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -750,7 +750,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -762,7 +762,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -774,7 +774,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -786,7 +786,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -798,7 +798,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -810,7 +810,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -822,7 +822,7 @@ export const Materias13 = () => {
                           <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -835,7 +835,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -847,7 +847,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -859,7 +859,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -871,7 +871,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6"/>
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -883,7 +883,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -895,7 +895,7 @@ export const Materias13 = () => {
                           <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
                             <HiCheck className="h-6 w-6" />
                           </div>
-                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción</div>
+                          <div className="ml-3 text-sm font-normal">Taller de Lectura y Redacción, Literatura</div>
                           
                         </Toast>
                       </div>
@@ -1344,6 +1344,176 @@ export const Materias16 = () => {
                             <HiCheck className="h-6 w-6" />
                           </div>
                           <div className="ml-3 text-sm font-normal">Físico-Química</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    
+                    
+                  </ul>
+                </div>
+            </Card>
+        </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+export const MateriasE2 = () => {
+  return (
+    <div>
+      <div className="p-4  sm:ml-64 dark:bg-gray-600">
+        <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
+          <div className="border-l-5 border-sky-900">
+            <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
+              Orientación Educativa III
+            </h1>
+          </div>
+          <div className="overflow-x-auto mt-11">
+            <Card className="w-full">
+              <p className="text-gray-800 text-lg dark:text-gray-200 m-2"><strong className="font-bold">Observaciones :</strong></p>
+              <p className='text-gray-800 text-sm dark:text-gray-200 '>
+               Sin Observaciones
+              </p>
+            </Card>
+            <Card  className="w-full flex mt-5 dark:bg-gray-500">
+                <div className="flex justify-between">
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Progresiones </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                  <p className="text-cyan-800 text-md font-bold dark:text-gray-200 m-2">Perfil </p>
+                  <p className="text-cyan-800 text-md  dark:text-gray-200 m-2"> </p>
+                </div>
+                <div className="container mx-auto px-4">                  
+                  <ul className='list-decimal text-gray-800 dark:text-white'>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>           </p>
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>         </p> 
+                        <Toast>
+                          <div className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
+                        
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>        </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6"/>
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>           </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>          </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
+                          
+                        </Toast>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='flex jsutify-center'>
+                        <p className='text-gray-800 text-sm dark:text-gray-200 '>         </p>
+                        <Toast>
+                          <div className=" inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-500 dark:bg-green-800 dark:text-green-200">
+                            <HiCheck className="h-6 w-6" />
+                          </div>
+                          <div className="ml-3 text-sm font-normal">Psicología</div>
                           
                         </Toast>
                       </div>
