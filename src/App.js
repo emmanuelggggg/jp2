@@ -12,6 +12,7 @@ import Tercero from './views/Tercero';
 import Cuarto from './views/Cuarto';
 import Quinto from './views/Quinto';
 import Sexto from './views/Sexto';
+import Error404 from './components/Error404'
 
 import {Materias1, Materias2, Materias3,Materias4,Materias5,Materias6,Materias7,Materias8,MateriasE9,Curriculum1} from './views/materias1/Materias1';
 import {Materias9, Materias10, Materias11,Materias12,Materias13,Materias14,Materias15,Materias16,MateriasE2,Curriculum2} from './views/materias2/Materias2';
@@ -110,6 +111,9 @@ function App() {
           <Route path='/Laboral7' element={<Laboral7 />}></Route>
           <Route path='/Laboral8' element={<Laboral8 />}></Route>
           <Route path='/Curriculum6' element={<Curriculum6 />}></Route>
+
+
+          <Route path='*' element={<Error404 />}></Route>
 
         </Route>
       </Routes>

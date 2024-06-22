@@ -3,6 +3,7 @@ import { Table, Accordion } from "flowbite-react";
 import {  Outlet } from 'react-router-dom';
 import { Button } from "flowbite-react";
 import Perfiles from "../components/Perfiles";
+import BreadCrums from "../components/BreadCrums"
 const Tercero = () => {
   const semestre3 = [
     {
@@ -967,6 +968,11 @@ const Tercero = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
+           <BreadCrums 
+            semestre={'/Tercero'}
+            nombresemestre={'Tercer Semestre'}
+            
+            />
             <div>
               {
                 semestre3.map ((semestre3 =>{

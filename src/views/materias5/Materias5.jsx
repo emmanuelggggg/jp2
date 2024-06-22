@@ -1,12 +1,19 @@
 import React from 'react'
 import { Card ,Toast} from "flowbite-react";
 import { HiCheck } from "react-icons/hi";
+import BreadCrums from '../../components/BreadCrums';
 export const Materias31 = () => {
   return (
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Materias31'}
+              nombremateria={'La Energía en Procesos de la Vida Diaria'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             La Energía en Procesos de la Vida Diaria 
             </h1>
@@ -223,7 +230,13 @@ export const Materias32 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Materias32'}
+              nombremateria={'Conciencia Historica II. México Durante el Expansionismo Capitalista'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             Conciencia Historica II. México Durante el Expansionismo Capitalista
             </h1>
@@ -381,7 +394,13 @@ export const MateriasE5 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/MateriasE5'}
+              nombremateria={'Orientación Educativa V'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
               Orientación Educativa V
             </h1>
@@ -552,7 +571,13 @@ export const Extendido1 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Extendido1'}
+              nombremateria={'Extendido'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             **Extendido
             </h1>
@@ -686,7 +711,13 @@ export const Extendido2 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Extendido2'}
+              nombremateria={'Extendido'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             **Extendido
             </h1>
@@ -820,7 +851,13 @@ export const Extendido3 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Extendido3'}
+              nombremateria={'Extendido3'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             **Extendido
             </h1>
@@ -954,7 +991,13 @@ export const Extendido4 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Extendido4'}
+              nombremateria={'Extendido4'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             **Extendido
             </h1>
@@ -1088,7 +1131,13 @@ export const Laboral5 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Laboral5'}
+              nombremateria={'Laboral Básico'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             Laboral Básico
             </h1>
@@ -1222,7 +1271,13 @@ export const Laboral6 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Laboral6'}
+              nombremateria={'Laboral Básico'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             Laboral Básico
             </h1>
@@ -1356,7 +1411,13 @@ export const Curriculum5 = () => {
     <div>
       <div className="p-4  sm:ml-64 dark:bg-gray-600">
         <div className="p-4  dark:border-gray-700 mt-14  overflow-x-auto">
-          <div className="border-l-5 border-sky-900">
+          <BreadCrums 
+              semestre={'/Quinto'}
+              nombresemestre={'Quinto Semestre'}
+              materia={'/Curriculum5'}
+              nombremateria={'Curriculum Ampliado'}
+            />
+          <div className="border-l-5 border-sky-900 mt-5">
             <h1 className="text-cyan-800 text-2xl font-bold dark:text-gray-200 ">
             - Curriculum Ampliado
             </h1>
