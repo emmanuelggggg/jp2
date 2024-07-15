@@ -115,9 +115,39 @@ const Calendario = () => {
     },  
     //fin octubre
     {
+      start : dayjs('2024-11-01T12:00:00').toDate(),
+      end : dayjs('2024-11-01T12:00:00').toDate(),
+      title: "Concurso altares"
+    }, 
+    {
       start : dayjs('2024-11-02T12:00:00').toDate(),
       end : dayjs('2024-11-02T12:00:00').toDate(),
       title: "Reunión de academia"
+    }, 
+    {
+      start : dayjs('2024-11-04T12:00:00').toDate(),
+      end : dayjs('2024-11-06T12:00:00').toDate(),
+      title: "Evaluación 2do Parcial"
+    }, 
+    {
+      start : dayjs('2024-11-15T12:00:00').toDate(),
+      end : dayjs('2024-11-15T12:00:00').toDate(),
+      title: "Feria bocacional 2024"
+    }, 
+    {
+      start : dayjs('2024-11-20T12:00:00').toDate(),
+      end : dayjs('2024-11-20T12:00:00').toDate(),
+      title: "Suspención por disposición oficial"
+    }, 
+    {
+      start : dayjs('2024-11-22T12:00:00').toDate(),
+      end : dayjs('2024-11-22T12:00:00').toDate(),
+      title: "Reunión representates de padres de familia "
+    }, 
+    { 
+      start : dayjs('2024-11-25T12:00:00').toDate(),
+      end : dayjs('2024-11-25T12:00:00').toDate(),
+      title: "Consulta servo escolar 2er parcial"
     }, 
   ]
  
