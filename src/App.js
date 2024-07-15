@@ -12,6 +12,8 @@ import Tercero from './views/Tercero';
 import Cuarto from './views/Cuarto';
 import Quinto from './views/Quinto';
 import Sexto from './views/Sexto';
+import Calendario from './views/Calendario'
+
 import Error404 from './components/Error404'
 
 import {Materias1, Materias2, Materias3,Materias4,Materias5,Materias6,Materias7,Materias8,MateriasE9,Curriculum1} from './views/materias1/Materias1';
@@ -31,6 +33,7 @@ function App() {
       <Routes>
         <Route path='/' element={<SideBar />}>
           <Route path='/' element={<Index />}></Route>
+          <Route path='/Calendario' element={<Calendario />}></Route>
           <Route path='/Primeros' element={<Primeros />}></Route>
           <Route path='/Materias1' element={<Materias1 />}></Route>
           <Route path='/Materias2' element={<Materias2 />}></Route>
