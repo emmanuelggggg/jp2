@@ -73,15 +73,52 @@ const Calendario = () => {
       title: "Evaluación 1er Periodo Parcial"
     },  
     {
-      start : dayjs('2024-09-29T12:00:00').toDate(),
-      end : dayjs('2024-09-29T12:00:00').toDate(),
+      start : dayjs('2024-09-30T12:00:00').toDate(),
+      end : dayjs('2024-09-30T12:00:00').toDate(),
       title: "Evaluación 1er Periodo Parcial"
     },  
+    //fin septiembre
     {
-      start : dayjs('2024-09-30T09:00:00').toDate(),
-      end : dayjs('2024-09-30T12:00:00').toDate(),
+      start : dayjs('2024-10-05T12:00:00').toDate(),
+      end : dayjs('2024-10-05T12:00:00').toDate(),
       title: "Reunión de academia"
     },  
+    {
+      start : dayjs('2024-10-08T12:00:00').toDate(),
+      end : dayjs('2024-10-11T12:00:00').toDate(),
+      title: "Torneo deportivo aniversario"
+    },  
+    {
+      start : dayjs('2024-10-14T12:00:00').toDate(),
+      end : dayjs('2024-10-14T12:00:00').toDate(),
+      title: "Really de aniversario y concurso de porras"
+    },  
+    {
+      start : dayjs('2024-10-18T12:00:00').toDate(),
+      end : dayjs('2024-10-18T12:00:00').toDate(),
+      title: "Consulta servo escolar 1er parcial"
+    },  
+    {
+      start : dayjs('2024-10-22T12:00:00').toDate(),
+      end : dayjs('2024-10-22T12:00:00').toDate(),
+      title: "Reunión representates de padres de familia "
+    },  
+    {
+      start : dayjs('2024-10-23T12:00:00').toDate(),
+      end : dayjs('2024-10-25T12:00:00').toDate(),
+      title: "Evaluación 2do Parcial"
+    },  
+    {
+      start : dayjs('2024-10-28T12:00:00').toDate(),
+      end : dayjs('2024-10-31T12:00:00').toDate(),
+      title: "Evaluación 2do Parcial"
+    },  
+    //fin octubre
+    {
+      start : dayjs('2024-11-02T12:00:00').toDate(),
+      end : dayjs('2024-11-02T12:00:00').toDate(),
+      title: "Reunión de academia"
+    }, 
   ]
  
 
