@@ -53,8 +53,8 @@ const Calendario = () => {
       title: "Fecha limite de entrega de planeaciones didacticas y otros documentos"
     },  
     {
-      start : dayjs('2024-09-15T12:00:00').toDate(),
-      end : dayjs('2024-09-15T12:00:00').toDate(),
+      start : dayjs('2024-09-13T12:00:00').toDate(),
+      end : dayjs('2024-09-13T12:00:00').toDate(),
       title: "Bienvenida Internacional"
     },  
     {
